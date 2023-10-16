@@ -11,7 +11,7 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         
         <!-- Favicons -->
-        <link rel="shortcut icon" href="view/assets/img/favicon.png">
+        <link rel="shortcut icon" href="assets/img/favicon.png">
 
         <!-- CSS -->
         <?php require_once "view/template/style.php"?>
@@ -39,7 +39,7 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                     <!-- Logo ( * your text or image into link tag *) -->
                     <div class="nav-logo-wrap local-scroll">
                         <a href="index.php" class="logo">
-                            <img src="view/assets/img/logo-white.png" alt="Company logo" width="188" height="37" />
+                            <img src="assets/img/logo-white.png" alt="Company logo" width="188" height="37" />
                         </a>
                     </div>
                     

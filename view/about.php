@@ -1,7 +1,7 @@
             <main id="main">    
             
                 <!-- Home Section -->
-                <section class="small-section bg-dark-alfa-50 bg-scroll light-content" data-background="view/assets/img/full-width-images/section-bg-19.jpg" id="home">
+                <section class="small-section bg-dark-alfa-50 bg-scroll light-content" data-background="assets/img/full-width-images/section-bg-19.jpg" id="home">
                     <div class="container relative pt-70">
                     
                         <div class="row">
@@ -167,7 +167,7 @@
                 
                 
                 <!-- Testimonials Section -->
-                <section class="page-section bg-dark bg-dark-alfa-70 bg-scroll light-content" data-background="view/assets/img/full-width-images/section-bg-2.jpg">
+                <section class="page-section bg-dark bg-dark-alfa-70 bg-scroll light-content" data-background="assets/img/full-width-images/section-bg-2.jpg">
                     <div class="container relative">
                         
                     <div class="row">
@@ -239,49 +239,49 @@
                                     
                                     <!-- Logo Item -->
                                     <div class="logo-item">
-                                        <img src="view/assets/img/clients-logos/dark/client-1.png" width="150" height="90" alt="Company Name" />
+                                        <img src="assets/img/clients-logos/dark/client-1.png" width="150" height="90" alt="Company Name" />
                                     </div>
                                     <!-- End Logo Item -->
                                     
                                     <!-- Logo Item -->
                                     <div class="logo-item">
-                                        <img src="view/assets/img/clients-logos/dark/client-2.png" width="150" height="90" alt="Company Name" />
+                                        <img src="assets/img/clients-logos/dark/client-2.png" width="150" height="90" alt="Company Name" />
                                     </div>
                                     <!-- End Logo Item -->
                                     
                                     <!-- Logo Item -->
                                     <div class="logo-item">
-                                        <img src="view/assets/img/clients-logos/dark/client-3.png" width="150" height="90" alt="Company Name" />
+                                        <img src="assets/img/clients-logos/dark/client-3.png" width="150" height="90" alt="Company Name" />
                                     </div>
                                     <!-- End Logo Item -->
                                     
                                     <!-- Logo Item -->
                                     <div class="logo-item">
-                                        <img src="view/assets/img/clients-logos/dark/client-4.png" width="150" height="90" alt="Company Name" />
+                                        <img src="assets/img/clients-logos/dark/client-4.png" width="150" height="90" alt="Company Name" />
                                     </div>
                                     <!-- End Logo Item -->
                                     
                                     <!-- Logo Item -->
                                     <div class="logo-item">
-                                        <img src="view/assets/img/clients-logos/dark/client-5.png" width="150" height="90" alt="Company Name" />
+                                        <img src="assets/img/clients-logos/dark/client-5.png" width="150" height="90" alt="Company Name" />
                                     </div>
                                     <!-- End Logo Item -->
                                     
                                     <!-- Logo Item -->
                                     <div class="logo-item">
-                                        <img src="view/assets/img/clients-logos/dark/client-6.png" width="150" height="90" alt="Company Name" />
+                                        <img src="assets/img/clients-logos/dark/client-6.png" width="150" height="90" alt="Company Name" />
                                     </div>
                                     <!-- End Logo Item -->
                                     
                                     <!-- Logo Item -->
                                     <div class="logo-item">
-                                        <img src="view/assets/img/clients-logos/dark/client-1.png" width="150" height="90" alt="Company Name" />
+                                        <img src="assets/img/clients-logos/dark/client-1.png" width="150" height="90" alt="Company Name" />
                                     </div>
                                     <!-- End Logo Item -->
                                     
                                     <!-- Logo Item -->
                                     <div class="logo-item">
-                                        <img src="view/assets/img/clients-logos/dark/client-2.png" width="150" height="90" alt="Company Name" />
+                                        <img src="assets/img/clients-logos/dark/client-2.png" width="150" height="90" alt="Company Name" />
                                     </div>
                                     <!-- End Logo Item -->
                                     

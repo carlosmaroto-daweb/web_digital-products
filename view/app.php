@@ -1,7 +1,7 @@
             <main id="main">    
             
                 <!-- Home Section -->
-                <section class="small-section bg-dark-alfa-50 bg-scroll light-content" data-background="view/assets/img/full-width-images/section-bg-19.jpg" id="home">
+                <section class="small-section bg-dark-alfa-50 bg-scroll light-content" data-background="assets/img/full-width-images/section-bg-19.jpg" id="home">
                     <div class="container relative pt-70">
                     
                         <div class="row">
@@ -42,10 +42,10 @@
                                 <div class="work-full-media mt-0">
                                     <div class="clearlist work-full-slider owl-carousel dark-content">
                                         <div>
-                                            <img src="view/assets/img/portfolio/full-project-1.jpg" alt="" />
+                                            <img src="assets/img/portfolio/full-project-1.jpg" alt="" />
                                         </div>
                                         <div>
-                                            <img src="view/assets/img/portfolio/full-project-5.jpg" alt="" />
+                                            <img src="assets/img/portfolio/full-project-5.jpg" alt="" />
                                         </div>
                                     </div>
                                 </div>
@@ -117,10 +117,10 @@
                                 <div class="work-full-media mt-0">
                                     <ul class="clearlist work-full-slider owl-carousel dark-content">
                                         <li>
-                                            <img src="view/assets/img/portfolio/full-project-2.jpg" alt="" />
+                                            <img src="assets/img/portfolio/full-project-2.jpg" alt="" />
                                         </li>
                                         <li>
-                                            <img src="view/assets/img/portfolio/full-project-5.jpg" alt="" />
+                                            <img src="assets/img/portfolio/full-project-5.jpg" alt="" />
                                         </li>
                                     </ul>
                                 </div>
@@ -152,10 +152,10 @@
                                 <div class="work-full-media mt-0">
                                     <ul class="clearlist work-full-slider owl-carousel dark-content">
                                         <li>
-                                            <img src="view/assets/img/portfolio/full-project-3.jpg" alt="" />
+                                            <img src="assets/img/portfolio/full-project-3.jpg" alt="" />
                                         </li>
                                         <li>
-                                            <img src="view/assets/img/portfolio/full-project-5.jpg" alt="" />
+                                            <img src="assets/img/portfolio/full-project-5.jpg" alt="" />
                                         </li>
                                     </ul>
                                 </div>
@@ -227,10 +227,10 @@
                                 <div class="work-full-media mt-0">
                                     <ul class="clearlist work-full-slider owl-carousel dark-content">
                                         <li>
-                                            <img src="view/assets/img/portfolio/full-project-6.jpg" alt="" />
+                                            <img src="assets/img/portfolio/full-project-6.jpg" alt="" />
                                         </li>
                                         <li>
-                                            <img src="view/assets/img/portfolio/full-project-5.jpg" alt="" />
+                                            <img src="assets/img/portfolio/full-project-5.jpg" alt="" />
                                         </li>
                                     </ul>
                                 </div>

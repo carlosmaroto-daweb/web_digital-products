@@ -4,7 +4,7 @@
                 <div class="home-section fullwidth-slider-fade bg-dark light-content" id="home">
                     
                     <!-- Slide Item -->
-                    <section class="home-section bg-scroll bg-dark-alfa-30 light-content" data-background="view/assets/img/full-width-images/section-bg-19.jpg">
+                    <section class="home-section bg-scroll bg-dark-alfa-30 light-content" data-background="assets/img/full-width-images/section-bg-19.jpg">
                         <div class="container fixed-height-medium d-flex align-items-center">
                             
                             <!-- Hero Content -->
@@ -23,7 +23,7 @@
                     <!-- End Slide Item -->
                     
                     <!-- Slide Item -->
-                    <section class="home-section bg-scroll bg-dark-alfa-50 light-content" data-background="view/assets/img/full-width-images/section-bg-14.jpg">
+                    <section class="home-section bg-scroll bg-dark-alfa-50 light-content" data-background="assets/img/full-width-images/section-bg-14.jpg">
                         <div class="container fixed-height-medium d-flex align-items-center">
                             
                             <!-- Hero Content -->
@@ -42,7 +42,7 @@
                     <!-- End Slide Item -->
                     
                     <!-- Slide Item -->
-                    <section class="home-section bg-scroll bg-dark-alfa-70 light-content" data-background="view/assets/img/full-width-images/section-bg-21.jpg">
+                    <section class="home-section bg-scroll bg-dark-alfa-70 light-content" data-background="assets/img/full-width-images/section-bg-21.jpg">
                         <div class="container fixed-height-medium d-flex align-items-center">
                             
                             <!-- Hero Content -->
@@ -183,15 +183,15 @@
                                 <div class="call-action-2-images">
                                     
                                     <div class="call-action-2-image-1">
-                                        <img src="view/assets/img/promo-3.jpg" alt="" class="wow scaleOutIn" data-wow-duration="1.2s" data-wow-offset="255" />
+                                        <img src="assets/img/promo-3.jpg" alt="" class="wow scaleOutIn" data-wow-duration="1.2s" data-wow-offset="255" />
                                     </div>
                                     
                                     <div class="call-action-2-image-2">
-                                        <img src="view/assets/img/promo-4.jpg" alt="" class="wow scaleOutIn" data-wow-duration="1.2s" data-wow-offset="134" />
+                                        <img src="assets/img/promo-4.jpg" alt="" class="wow scaleOutIn" data-wow-duration="1.2s" data-wow-offset="134" />
                                     </div>
                                     
                                     <div class="call-action-2-image-3">
-                                        <img src="view/assets/img/promo-5.jpg" alt="" class="wow scaleOutIn" data-wow-duration="1.2s" data-wow-offset="0" />
+                                        <img src="assets/img/promo-5.jpg" alt="" class="wow scaleOutIn" data-wow-duration="1.2s" data-wow-offset="0" />
                                     </div>
                                     
                                 </div>                                                                              
@@ -386,10 +386,10 @@
                             
                             <div class="col-lg-6 relative">
                                 <div class="banner-image-1">
-                                    <img src="view/assets/img/promo-1.jpg" alt="" class="wow scaleOutIn" data-wow-duration="1.2s" data-wow-offset="292" />
+                                    <img src="assets/img/promo-1.jpg" alt="" class="wow scaleOutIn" data-wow-duration="1.2s" data-wow-offset="292" />
                                 </div>
                                 <div class="banner-image-2">
-                                    <img src="view/assets/img/promo-2.jpg" alt="" class="wow scaleOutIn" data-wow-duration="1.2s" data-wow-offset="70" />
+                                    <img src="assets/img/promo-2.jpg" alt="" class="wow scaleOutIn" data-wow-duration="1.2s" data-wow-offset="70" />
                                 </div>
                             </div>
                             
@@ -421,7 +421,7 @@
                         <div class="row">
                             
                             <div class="col-lg-5 mb-md-60 wow fadeScaleIn" data-wow-duration="1.5s">
-                                <img src="view/assets/img/split-image-1.jpg" alt="Add Your Description" />
+                                <img src="assets/img/split-image-1.jpg" alt="Add Your Description" />
                             </div>
                             
                             <div class="col-lg-6 offset-lg-1 d-flex align-items-center wow fadeInUpShort">
@@ -581,7 +581,7 @@
                 
                 
                 <!-- Testimonials Section -->
-                <section class="page-section bg-dark bg-dark-alfa-70 bg-scroll light-content" data-background="view/assets/img/full-width-images/section-bg-2.jpg">
+                <section class="page-section bg-dark bg-dark-alfa-70 bg-scroll light-content" data-background="assets/img/full-width-images/section-bg-2.jpg">
                     <div class="container relative">
                         
                     <div class="row">
@@ -648,7 +648,7 @@
 
                 
                 <!-- Newsletter Section -->
-                <section class="small-section bg-dark bg-dark-alfa-70 bg-scroll bg-position-top light-content" data-background="view/assets/img/full-width-images/section-bg-3.jpg">
+                <section class="small-section bg-dark bg-dark-alfa-70 bg-scroll bg-position-top light-content" data-background="assets/img/full-width-images/section-bg-3.jpg">
                     <div class="container relative">
                         
                         <form id="mailchimp" class="form wow fadeInUpShort">
@@ -787,7 +787,7 @@
             
 
                 <!-- Home Section -->
-                <section class="home-section bg-dark-alfa-70 parallax-5" data-background="view/assets/img/full-width-images/section-bg-7.jpg" id="home">
+                <section class="home-section bg-dark-alfa-70 parallax-5" data-background="assets/img/full-width-images/section-bg-7.jpg" id="home">
                     <div class="container min-height-100vh d-flex align-items-center pt-100 pb-100">
                         
                         <!-- Hero Content -->

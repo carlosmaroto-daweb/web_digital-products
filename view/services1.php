@@ -1,7 +1,7 @@
         <main id="main">
 
             <!-- Home Section -->
-            <section class="home-section bg-dark-alfa-90 parallax-5" data-background="view/assets/img/full-width-images/section-bg-22.jpg" id="home">
+            <section class="home-section bg-dark-alfa-90 parallax-5" data-background="assets/img/full-width-images/section-bg-22.jpg" id="home">
                 <div class="container min-height-100vh d-flex align-items-center pt-100 pb-100">
 
                     <!-- Hero Content -->
@@ -72,10 +72,10 @@
 
                         <div class="col-lg-6 relative">
                             <div class="banner-image-1">
-                                <img src="view/assets/img/promo-1.jpg" alt="" class="wow scaleOutIn" data-wow-duration="1.2s" data-wow-offset="292" />
+                                <img src="assets/img/promo-1.jpg" alt="" class="wow scaleOutIn" data-wow-duration="1.2s" data-wow-offset="292" />
                             </div>
                             <div class="banner-image-2">
-                                <img src="view/assets/img/promo-2.jpg" alt="" class="wow scaleOutIn" data-wow-duration="1.2s" data-wow-offset="70" />
+                                <img src="assets/img/promo-2.jpg" alt="" class="wow scaleOutIn" data-wow-duration="1.2s" data-wow-offset="70" />
                             </div>
                         </div>
 
@@ -198,12 +198,12 @@
                             <div class="call-action-3-images mt-xs-0 text-end">
 
                                 <div class="call-action-3-image-1">
-                                    <img src="view/assets/img/promo-6.jpg" alt="" class="wow scaleOutIn" data-wow-duration="1.2s" data-wow-offset="205" />
+                                    <img src="assets/img/promo-6.jpg" alt="" class="wow scaleOutIn" data-wow-duration="1.2s" data-wow-offset="205" />
                                 </div>
 
                                 <div class="call-action-3-image-2-wrap d-flex align-items-center">
                                     <div class="call-action-3-image-2">
-                                        <img src="view/assets/img/promo-7.jpg" alt="" class="wow scaleOutIn" data-wow-duration="1.2s" />
+                                        <img src="assets/img/promo-7.jpg" alt="" class="wow scaleOutIn" data-wow-duration="1.2s" />
                                     </div>
                                 </div>
 

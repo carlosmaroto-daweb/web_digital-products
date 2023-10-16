@@ -4,7 +4,7 @@
             <div class="home-section fullwidth-slider-fade bg-dark light-content" id="home">
 
                 <!-- Slide Item -->
-                <section class="home-section bg-scroll bg-dark-alfa-30 light-content" data-background="view/assets/img/full-width-images/section-bg-19.jpg">
+                <section class="home-section bg-scroll bg-dark-alfa-30 light-content" data-background="assets/img/full-width-images/section-bg-19.jpg">
                     <div class="container min-height-100vh d-flex align-items-center pt-100 pb-100">
 
                         <!-- Hero Content -->
@@ -22,7 +22,7 @@
                 <!-- End Slide Item -->
 
                 <!-- Slide Item -->
-                <section class="home-section bg-scroll bg-dark-alfa-50 light-content" data-background="view/assets/img/full-width-images/section-bg-14.jpg">
+                <section class="home-section bg-scroll bg-dark-alfa-50 light-content" data-background="assets/img/full-width-images/section-bg-14.jpg">
                     <div class="container min-height-100vh d-flex align-items-center pt-100 pb-100">
 
                         <!-- Hero Content -->
@@ -258,10 +258,10 @@
                             <div class="work-full-media mt-0">
                                 <div class="clearlist work-full-slider owl-carousel dark-content">
                                     <div>
-                                        <img class="lazyOwl" src="view/assets/img/portfolio/projects-thumb.gif" data-src="view/assets/img/portfolio/full-project-3.jpg" alt="" />
+                                        <img class="lazyOwl" src="assets/img/portfolio/projects-thumb.gif" data-src="assets/img/portfolio/full-project-3.jpg" alt="" />
                                     </div>
                                     <div>
-                                        <img class="lazyOwl" src="view/assets/img/portfolio/projects-thumb.gif" data-src="view/assets/img/portfolio/full-project-6.jpg" alt="" />
+                                        <img class="lazyOwl" src="assets/img/portfolio/projects-thumb.gif" data-src="assets/img/portfolio/full-project-6.jpg" alt="" />
                                     </div>
                                 </div>
                             </div>
