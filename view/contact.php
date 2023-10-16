@@ -3,7 +3,7 @@
 <main id="main">
 
     <!-- Home Section -->
-    <section class="page-section bg-dark-alfa-50 bg-scroll" data-background="images/full-width-images/section-bg-19.jpg" id="home">
+    <section class="page-section bg-dark-alfa-50 bg-scroll" data-background="view/assets/img/full-width-images/section-bg-19.jpg" id="home">
         <div class="container relative">
 
             <div class="row">
@@ -181,7 +181,7 @@
 
 
     <!-- Section -->
-    <section class="page-section light-content bg-dark bg-dark-alfa-70" data-background="images/full-width-images/section-bg-4.jpg">
+    <section class="page-section light-content bg-dark bg-dark-alfa-70" data-background="view/assets/img/full-width-images/section-bg-4.jpg">
         <div class="container relative">
 
             <div class="wow fadeInUpShort">
