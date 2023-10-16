@@ -38,7 +38,7 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                     
                     <!-- Logo ( * your text or image into link tag *) -->
                     <div class="nav-logo-wrap local-scroll">
-                        <a href="index.html" class="logo">
+                        <a href="index.php" class="logo">
                             <img src="view/assets/img/logo-white.png" alt="Company logo" width="188" height="37" />
                         </a>
                     </div>
@@ -52,14 +52,12 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                     <!-- Main Menu -->
                     <div class="inner-nav desktop-nav">
                         <ul class="clearlist scroll-nav local-scroll">
-                            <li class="active"><a href="#home">Home</a></li>
+                            <li class="active"><a href="index.php">Home</a></li>
                             <li><a href="#about">About</a></li>
                             <li><a href="#services">Services</a></li>
-                            <li><a href="#portfolio">Portfolio</a></li>
-                            <li><a href="#blog">Blog</a></li>
+                            <li><a href="#app">App</a></li>
                             <li><a href="#contact">Contact</a></li>
-                            
-                            <li><a href="intro.html">All Demos</a></li>
+                            <li><a href="#login">Login</a></li>
                         </ul>
                     </div>
                     <!-- End Main Menu -->
