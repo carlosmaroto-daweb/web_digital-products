@@ -61,6 +61,66 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                         </ul>
                     </div>
                     <!-- End Main Menu -->
+
+                    <!-- Main Menu -->
+                    <div class="inner-nav desktop-nav">
+                        <ul class="clearlist">
+                            <li class="active"><a href="index.php">Inicio</a></li>
+                            <li><a href="index.php?route=about">Quienes Somos</a></li>
+                            <li>
+                                <a class="mn-has-sub">Servicios <i class="mn-has-sub-icon"></i></a>
+                                <ul class="mn-sub">
+                                    <li>
+                                        <a href="index.php?route=services" class="mn-group-title">General</a>
+                                    </li>
+                                    <li>
+                                        <a href="index.php?route=PD" class="mn-group-title">Protección de Datos</a>
+                                    </li>
+                                    <li>
+                                        <a href="index.php?route=PI" class="mn-group-title">Plan de Igualdad</a>
+                                    </li>
+                                    <li>
+                                        <a href="index.php?route=RR" class="mn-group-title">Registro Retributivo</a>
+                                    </li>
+                                    <li>
+                                        <a href="index.php?route=PA" class="mn-group-title">Protocolo de Acoso</a>
+                                    </li>
+                                    <li>
+                                        <a href="index.php?route=LSSI" class="mn-group-title">LSSI</a>
+                                    </li>
+                                    <li>
+                                        <a href="index.php?route=ciberseguridad" class="mn-group-title">Ciberseguridad</a>
+                                    </li>
+                                    <li>
+                                        <a href="index.php?route=CH" class="mn-group-title">Control Horario</a>
+                                    </li>
+                                    <li>
+                                        <a href="index.php?route=BCD" class="mn-group-title">BCD</a>
+                                    </li>
+                                    <li>
+                                        <a href="index.php?route=PRL" class="mn-group-title">PRL</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a class="mn-has-sub">Formación <i class="mn-has-sub-icon"></i></a>
+                                <ul class="mn-sub">
+                                    <li>
+                                        <a href="index.php?route=formation" class="mn-group-title">General</a>
+                                    </li>
+                                    <li>
+                                        <a href="index.php?route=catalogo" class="mn-group-title">Catálogo</a>
+                                    </li>
+                                    <li>
+                                        <a href="index.php?route=acceso" class="mn-group-title">Acceso</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="index.php?route=contact">Contacto</a></li>
+                            <li><a href="index.php?route=login">Area Privada</a></li>
+                        </ul>
+                    </div>
+                    <!-- End Main Menu -->
                     
                 </div>
             </nav>
