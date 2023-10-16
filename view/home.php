@@ -1,5 +1,3 @@
-<?php require_once "view/template/header.php" ?>
-
             <main id="main">    
             
                 <!-- Fullwidth Slider -->
@@ -812,5 +810,3 @@
                 <!-- End Home Section -->
 
             </main>
-
-<?php require_once "view/template/footer.php" ?>

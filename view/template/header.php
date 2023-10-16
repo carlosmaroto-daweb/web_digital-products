@@ -54,10 +54,10 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                         <ul class="clearlist scroll-nav local-scroll">
                             <li class="active"><a href="index.php">Home</a></li>
                             <li><a href="#about">About</a></li>
-                            <li><a href="#services">Services</a></li>
+                            <li><a href="index.php?route=services">Services</a></li>
                             <li><a href="#app">App</a></li>
                             <li><a href="#contact">Contact</a></li>
-                            <li><a href="#login">Login</a></li>
+                            <li><a href="index.php?route=login">Login</a></li>
                         </ul>
                     </div>
                     <!-- End Main Menu -->
