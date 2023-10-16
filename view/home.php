@@ -787,7 +787,7 @@
             
 
                 <!-- Home Section -->
-                <section class="home-section bg-dark-alfa-70 parallax-5" data-background="images/full-width-images/section-bg-7.jpg" id="home">
+                <section class="home-section bg-dark-alfa-70 parallax-5" data-background="view/assets/img/full-width-images/section-bg-7.jpg" id="home">
                     <div class="container min-height-100vh d-flex align-items-center pt-100 pb-100">
                         
                         <!-- Hero Content -->
