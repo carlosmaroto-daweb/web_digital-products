@@ -44,7 +44,7 @@
         
         
         <!-- JS -->
-        <?php require_once "view/template/script.php"?>
+        <?php require_once "includes/script.php"?>
         
     </body>
 </html>

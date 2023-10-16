@@ -14,7 +14,7 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
         <link rel="shortcut icon" href="assets/img/favicon.png">
 
         <!-- CSS -->
-        <?php require_once "view/template/style.php"?>
+        <?php require_once "includes/style.php"?>
         
     </head>
     <body class="appear-animate">

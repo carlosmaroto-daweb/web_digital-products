@@ -1,4 +1,4 @@
-<?php require_once "view/template/header.php" ?>
+<?php require_once "includes/header.php" ?>
 
 <main id="main">
 
@@ -341,4 +341,4 @@
 
 </main>
 
-<?php require_once "view/template/footer.php" ?>
+<?php require_once "includes/footer.php" ?>
