@@ -786,24 +786,30 @@
                     </div>
                 </section>
                 <!-- End Call Action Section -->
-                
+            
 
-                <!-- Section -->
-                <section class="home-section bg-dark bg-dark-alfa-70 light-content" data-background="images/full-width-images/section-bg-13.jpg">
-                    <div class="container fixed-height-small d-flex align-items-center">
-                       
-                        <!-- Section Content -->
-                        <div class="home-content wow fadeInUpShort">
-                            <h1 class="hs-line-7 mb-60 mb-xs-40">Another Project</h1>
-                            <div class="local-scroll mb-20">
-                                <a href="#" class="btn btn-mod btn-w btn-medium btn-round mx-md-1">View Project</a>
-                            </div>
+                <!-- Home Section -->
+                <section class="home-section bg-dark-alfa-70 parallax-5" data-background="images/full-width-images/section-bg-7.jpg" id="home">
+                    <div class="container min-height-100vh d-flex align-items-center pt-100 pb-100">
+                        
+                        <!-- Hero Content -->
+                        <div class="home-content text-start">
+                            <div class="row">
+                                <div class="col-lg-7">
+                                    <h1 class="hs-line-3 mb-30 mb-xs-10 wow fadeInUpShort" data-wow-delay=".1s">Rhythm Template</h1>
+                                    <h2 class="hs-line-2 mb-60 mb-xs-30 wow fadeInUpShort" data-wow-delay=".2s">We bring innovative ideas into reality</h2>
+                                    <div class="local-scroll wow fadeInUpShort" data-wow-delay=".3s">
+                                        <a href="#about" class="btn btn-mod btn-border-w btn-large btn-round mx-md-1">Learn More</a>
+                                        <a href="pages-services-1-dark.html" class="btn btn-mod btn-w btn-large btn-round mx-md-1">Start Project</a>
+                                    </div>
+                                </div>
+                            </div>                            
                         </div>
-                        <!-- End Section Content -->
+                        <!-- End Hero Content -->
                         
                     </div>
                 </section>
-                <!-- End Section -->
+                <!-- End Home Section -->
 
             </main>
 
