@@ -1,15 +1,15 @@
         <main id="main">
 
             <!-- Home Section -->
-            <section class="home-section bg-dark-alfa-50 light-content relative" data-background="video/video.jpg" id="home">
+            <section class="home-section bg-dark-alfa-50 light-content relative" data-background="view/assets/video/video.jpg" id="home">
                 <div class="container min-height-100vh d-flex align-items-center pt-100 pb-100">
 
                     <!-- Video BG Init -->
                     <!-- Please replace the video files in folder "video" with your own videos -->
                     <div class="bg-video-wrapper">
                         <video class="bg-video" preload="auto" autoplay loop muted playsinline data-object-fit="cover">
-                            <source src="video/video.mp4" type="video/mp4">
-                            <source src="video/video.webm" type="video/webm">
+                            <source src="view/assets/video/video.mp4" type="video/mp4">
+                            <source src="view/assets/video/video.webm" type="video/webm">
                         </video>
                         <div class="bg-video-overlay bg-dark-alfa-50"></div>
                     </div>
@@ -98,7 +98,7 @@
                                     Lorem ipsum dolor sit amet, rembe adipiscing elite. Inwege maximus ligula semper metusere pellentesque mattis. Maecenas volutpat, diam enime volutpa.
                                 </div>
                                 <div class="services-more">
-                                    <a href="services1.php" class="text-link">Saber más</a>
+                                    <a href="index.php?route=services1" class="text-link">Saber más</a>
                                 </div>
                             </div>
                         </div>
@@ -117,7 +117,7 @@
                                     Proin fringilla augue at maximus vestibulum. Nam pulvitaere neque et porttitor. Praesent sed nisi eleifend lorem fermentum ac ante lorem ipsum sit amet.
                                 </div>
                                 <div class="services-more">
-                                    <a href="services2.php" class="text-link">Saber más</a>
+                                    <a href="index.php?route=services2" class="text-link">Saber más</a>
                                 </div>
                             </div>
                         </div>
