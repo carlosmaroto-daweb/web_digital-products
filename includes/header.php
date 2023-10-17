@@ -23,8 +23,19 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
         <div class="page-loader dark">
             <div class="loader">Loading...</div>
         </div>
-        <!-- End Page Loader -->
+        <!-- End Page Loader 
 
+        <div class="ta-app2-border-wrapper position-absolute">
+            <span class="ta-app2-border ta-app2-border__1"></span>
+            <span class="ta-app2-border ta-app2-border__2"></span>
+            <span class="ta-app2-border ta-app2-border__3"></span>
+            <span class="ta-app2-border ta-app2-border__4"></span>
+            <span class="ta-app2-border ta-app2-border__5"></span>
+            <span class="ta-app2-border ta-app2-border__6"></span>
+            <span class="ta-app2-border ta-app2-border__7"></span>
+        </div>
+        -->
+        
         <!-- Skip to Content -->
         <a href="#main" class="btn skip-to-content">Skip to Content</a>
         <!-- End Skip to Content -->

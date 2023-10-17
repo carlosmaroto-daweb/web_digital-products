@@ -34,3 +34,106 @@
 .sostenibilidad-app {
     background-attachment: unset;
 }
+/*
+.ta-app2-border-wrapper {
+    top: 0;
+    max-width: 1340px;
+    width: 100%;
+    height: calc(100%*10);
+    left: 50%;
+    translate: -50% 0px;
+  }
+
+.ta-app2-border {
+    position: absolute;
+    background: #272729;
+    width: 1px;
+    height: 100%;
+    z-index: -1;
+}
+
+.ta-app2-border::after {
+    width: 1px;
+    right: -1px;
+    content: "";
+    height: 100px;
+    position: absolute;
+}
+
+.ta-app2-border__1 {
+    left: 0%;
+}
+
+.ta-app2-border__2 {
+    left: 16.66%;
+    display: none;
+}
+
+.ta-app2-border__3 {
+    left: 33.32%;
+}
+
+.ta-app2-border__4 {
+    left: 49.98%;
+    display: none;
+}
+
+.ta-app2-border__5 {
+    left: 66.64%;
+}
+
+.ta-app2-border__6 {
+    left: 83.3%;
+    display: none;
+}
+
+.ta-app2-border__7 {
+    left: 100%;
+  
+}
+
+@media (max-width: 475px) {
+    .ta-app2-border__7 {
+      left: 99%;
+    }
+}
+
+.ta-app2-border:nth-child(odd)::after {
+    animation: scroll2 15s ease-out infinite;
+    background-image: linear-gradient(0deg, transparent, #5a5959);
+}
+
+.ta-app2-border:nth-child(even)::after {
+    animation: scroll1 15s ease-out infinite;
+    background-image: linear-gradient(0deg, #5a5959, transparent);
+}
+
+
+@keyframes scroll1 {
+    0% {
+      top: 0px;
+      opacity: 1;
+    }
+    50% {
+      top: 50%;
+    }
+    100% {
+      top: 100%;
+      opacity: 0.5;
+    }
+}
+
+@keyframes scroll2 {
+    0% {
+      opacity: 1;
+      bottom: 0px;
+    }
+    50% {
+      bottom: 50%;
+    }
+    100% {
+      bottom: 100%;
+      opacity: 0.5;
+    }
+}
+*/
