@@ -1,41 +1,6 @@
-<style>
-    /*
-    .come-from-modal.left .modal-dialog,
-    .come-from-modal.right .modal-dialog {
-        position: fixed;
-        margin: auto;
-        width: 320px;
-        height: 100%;
-        -webkit-transform: translate3d(0%, 0, 0);
-        -ms-transform: translate3d(0%, 0, 0);
-        -o-transform: translate3d(0%, 0, 0);
-        transform: translate3d(0%, 0, 0);
-    }
-
-    .come-from-modal.left .modal-content,
-    .come-from-modal.right .modal-content {
-        height: 100%;
-        overflow-y: auto;
-        border-radius: 0px;
-    }
-
-    .come-from-modal.left .modal-body,
-    .come-from-modal.right .modal-body {
-        padding: 15px 15px 80px;
-    }
-
-    .come-from-modal.right.fade .modal-dialog {
-        right: -320px;
-        -webkit-transition: opacity 0.3s linear, right 0.3s ease-out;
-        -moz-transition: opacity 0.3s linear, right 0.3s ease-out;
-        -o-transition: opacity 0.3s linear, right 0.3s ease-out;
-        transition: opacity 0.3s linear, right 0.3s ease-out;
-    }
-
-    .come-from-modal.right.fade.in .modal-dialog {
-        right: 0;
-    }*/
-</style>
+<link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
 
 <main id="main">
 
@@ -70,20 +35,6 @@
 
     <!-- Section -->
     <section class="page-section bg-dark">
-        <div class="modal fade  come-from-modal right" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
-                    </div>
-                    <div class="modal-body">
-                        modal
-                    </div>
-                </div>
-            </div>
-        </div>
-
 
         <div class="container relative">
 
@@ -110,6 +61,37 @@
             </div>
 
 
+            <div class="container demo">
+
+
+                <div class="text-center">
+                    <button type="button" class="btn btn-demo" data-toggle="modal" data-target="#myModal2">
+                        Right Sidebar Modal
+                    </button>
+                </div>
+
+                <!-- Modal -->
+                <div class="modal right fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title" id="myModalLabel2">Right Sidebar</h4>
+                            </div>
+
+                            <div class="modal-body">
+                                <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                </p>
+                            </div>
+
+                        </div><!-- modal-content -->
+                    </div><!-- modal-dialog -->
+                </div><!-- modal -->
+
+
+            </div><!-- container -->
+
 
 
 
@@ -120,33 +102,44 @@
                 <div class="col-sm-6 col-md-4 mb-60 mb-xs-40">
 
                     <div class="post-prev-img">
-                        <a href="blog-single-sidebar-right-dark.html" tabindex="-1"><img src="assets/img/blog/post-prev-1.jpg" alt="" class="wow scaleOutIn" data-wow-duration="1.2s" /></a>
+                        <a href="blog-single-sidebar-right-dark.html" tabindex="-1"><img src="assets/img/blog/post-prev-2.jpg" alt="" class="wow scaleOutIn" data-wow-duration="1.2s" /></a>
                     </div>
 
-                    <h3 class="post-prev-title mb-3">
-                        <a href="blog-single-sidebar-right-dark.html">Titulo</a>
+                    <h3 class="post-prev-title">
+                        <a href="blog-single-sidebar-right-dark.html">TITULO</a>
                     </h3>
 
                     <div class="post-prev-info">
-                        <a href="">• Categoría</a>
-                    </div>
-
-                    <div class="post-prev-info">
-                        <a href="">• Horas</a>
-                    </div>
-
-                    <div class="post-prev-info">
-                        <a href="">• Acreditación</a>
-                    </div>
-
-                    <div class="post-prev-info">
-                        <a href="">• Composición</a>
+                        <a href="">Empresa impartidora</a> • horas</a><br>
+                        <a href="">Categoría</a>
                     </div>
 
                     <div class="post-prev-text">
-                        Breve descripción <br> Lorem ipsum dolor sit amet, rembe adipiscing elite. Inwege maximus ligula semper metusere pellentesque mattis. Maecenas volutpat, diam enime volutpa.
+                        Breve descripcion - Proin fringilla augue at maximus vestibulum. Nam pulvi vitae neque et porttitor. Praesent sed nisi eleifend, lorem fermentum ac ante lorem ipsum sit amet.
+                    </div>
+                </div>
+                <!-- End Post Item -->
+
+
+                <!-- Post Item -->
+                <div class="col-sm-6 col-md-4 mb-60 mb-xs-40">
+
+                    <div class="post-prev-img">
+                        <a href="blog-single-sidebar-right-dark.html" tabindex="-1"><img src="assets/img/blog/post-prev-2.jpg" alt="" class="wow scaleOutIn" data-wow-duration="1.2s" /></a>
                     </div>
 
+                    <h3 class="post-prev-title">
+                        <a href="blog-single-sidebar-right-dark.html">TITULO</a>
+                    </h3>
+
+                    <div class="post-prev-info">
+                        <a href="">Empresa impartidora</a> • horas</a><br>
+                        <a href="">Categoría</a>
+                    </div>
+
+                    <div class="post-prev-text">
+                        Breve descripcion - Proin fringilla augue at maximus vestibulum. Nam pulvi vitae neque et porttitor. Praesent sed nisi eleifend, lorem fermentum ac ante lorem ipsum sit amet.
+                    </div>
                 </div>
                 <!-- End Post Item -->
 
@@ -162,10 +155,7 @@
                     </h3>
 
                     <div class="post-prev-info">
-                        <a href="">Empresa impartidora</a> • horas
-                    </div>
-
-                    <div class="post-prev-info">
+                        <a href="">Empresa impartidora</a> • horas</a><br>
                         <a href="">Categoría</a>
                     </div>
 
@@ -179,25 +169,21 @@
                 <div class="col-sm-6 col-md-4 mb-60 mb-xs-40">
 
                     <div class="post-prev-img">
-                        <a href="blog-single-sidebar-right-dark.html" tabindex="-1"><img src="assets/img/blog/post-prev-3.jpg" alt="" class="wow scaleOutIn" data-wow-duration="1.2s" /></a>
+                        <a href="blog-single-sidebar-right-dark.html" tabindex="-1"><img src="assets/img/blog/post-prev-2.jpg" alt="" class="wow scaleOutIn" data-wow-duration="1.2s" /></a>
                     </div>
 
                     <h3 class="post-prev-title">
-                        <a href="blog-single-sidebar-right-dark.html">Clean Style in the Web</a>
+                        <a href="blog-single-sidebar-right-dark.html">TITULO</a>
                     </h3>
 
                     <div class="post-prev-info">
-                        <a href="">John Doe</a> • 7 December
+                        <a href="">Empresa impartidora</a> • horas</a><br>
+                        <a href="">Categoría</a>
                     </div>
 
                     <div class="post-prev-text">
-                        Ember adipiscing elite curabitur iaculis accumsan augu nec finibus mauris pretium eu. Duis placerat ex gravida nibh tristique ultricies eros lorem blandit.
+                        Breve descripcion - Proin fringilla augue at maximus vestibulum. Nam pulvi vitae neque et porttitor. Praesent sed nisi eleifend, lorem fermentum ac ante lorem ipsum sit amet.
                     </div>
-
-                    <div class="post-prev-more">
-                        <a href="blog-single-sidebar-right-dark.html" class="text-link" tabindex="-1">Learn More</a>
-                    </div>
-
                 </div>
                 <!-- End Post Item -->
 
@@ -205,51 +191,21 @@
                 <div class="col-sm-6 col-md-4 mb-60 mb-xs-40">
 
                     <div class="post-prev-img">
-                        <a href="blog-single-sidebar-right-dark.html" tabindex="-1"><img src="assets/img/blog/post-prev-4.jpg" alt="" class="wow scaleOutIn" data-wow-duration="1.2s" /></a>
-                    </div>
-
-                    <div class="post-prev-title">
-                        <a href="blog-single-sidebar-right-dark.html">Duis Tristique Condimentum</a>
-                    </div>
-
-                    <div class="post-prev-info">
-                        <a href="">John Doe</a> • 10 December
-                    </div>
-
-                    <div class="post-prev-text">
-                        Lorem ipsum dolor sit amet, rembe adipiscing elite. Inwege maximus ligula semper metusere pellentesque mattis. Maecenas volutpat, diam enime volutpa.
-                    </div>
-
-                    <div class="post-prev-more">
-                        <a href="blog-single-sidebar-right-dark.html" class="text-link" tabindex="-1">Learn More</a>
-                    </div>
-
-                </div>
-                <!-- End Post Item -->
-
-                <!-- Post Item -->
-                <div class="col-sm-6 col-md-4 mb-60 mb-xs-40">
-
-                    <div class="post-prev-img">
-                        <a href="blog-single-sidebar-right-dark.html" tabindex="-1"><img src="assets/img/blog/post-prev-5.jpg" alt="" class="wow scaleOutIn" data-wow-duration="1.2s" /></a>
+                        <a href="blog-single-sidebar-right-dark.html" tabindex="-1"><img src="assets/img/blog/post-prev-2.jpg" alt="" class="wow scaleOutIn" data-wow-duration="1.2s" /></a>
                     </div>
 
                     <h3 class="post-prev-title">
-                        <a href="blog-single-sidebar-right-dark.html">Meet the New Web Design Trends</a>
+                        <a href="blog-single-sidebar-right-dark.html">TITULO</a>
                     </h3>
 
                     <div class="post-prev-info">
-                        <a href="">John Doe</a> • 10 December
+                        <a href="">Empresa impartidora</a> • horas</a><br>
+                        <a href="">Categoría</a>
                     </div>
 
                     <div class="post-prev-text">
-                        Lorem ipsum dolor sit amet, rembe adipiscing elite. Inwege maximus ligula semper metusere pellentesque mattis. Maecenas volutpat, diam enime volutpa.
+                        Breve descripcion - Proin fringilla augue at maximus vestibulum. Nam pulvi vitae neque et porttitor. Praesent sed nisi eleifend, lorem fermentum ac ante lorem ipsum sit amet.
                     </div>
-
-                    <div class="post-prev-more">
-                        <a href="blog-single-sidebar-right-dark.html" class="text-link" tabindex="-1">Learn More</a>
-                    </div>
-
                 </div>
                 <!-- End Post Item -->
 
@@ -257,25 +213,21 @@
                 <div class="col-sm-6 col-md-4 mb-60 mb-xs-40">
 
                     <div class="post-prev-img">
-                        <a href="blog-single-sidebar-right-dark.html" tabindex="-1"><img src="assets/img/blog/post-prev-6.jpg" alt="" class="wow scaleOutIn" data-wow-duration="1.2s" /></a>
+                        <a href="blog-single-sidebar-right-dark.html" tabindex="-1"><img src="assets/img/blog/post-prev-2.jpg" alt="" class="wow scaleOutIn" data-wow-duration="1.2s" /></a>
                     </div>
 
                     <h3 class="post-prev-title">
-                        <a href="blog-single-sidebar-right-dark.html">Minimalistic Product Design</a>
+                        <a href="blog-single-sidebar-right-dark.html">TITULO</a>
                     </h3>
 
                     <div class="post-prev-info">
-                        <a href="">John Doe</a> • 9 December
+                        <a href="">Empresa impartidora</a> • horas</a><br>
+                        <a href="">Categoría</a>
                     </div>
 
                     <div class="post-prev-text">
-                        Proin fringilla augue at maximus vestibulum. Nam pulvi vitae neque et porttitor. Praesent sed nisi eleifend, lorem fermentum ac ante lorem ipsum sit amet.
+                        Breve descripcion - Proin fringilla augue at maximus vestibulum. Nam pulvi vitae neque et porttitor. Praesent sed nisi eleifend, lorem fermentum ac ante lorem ipsum sit amet.
                     </div>
-
-                    <div class="post-prev-more">
-                        <a href="blog-single-sidebar-right-dark.html" class="text-link" tabindex="-1">Learn More</a>
-                    </div>
-
                 </div>
                 <!-- End Post Item -->
 
@@ -283,25 +235,21 @@
                 <div class="col-sm-6 col-md-4 mb-60 mb-xs-40">
 
                     <div class="post-prev-img">
-                        <a href="blog-single-sidebar-right-dark.html" tabindex="-1"><img src="assets/img/blog/post-prev-7.jpg" alt="" class="wow scaleOutIn" data-wow-duration="1.2s" /></a>
+                        <a href="blog-single-sidebar-right-dark.html" tabindex="-1"><img src="assets/img/blog/post-prev-2.jpg" alt="" class="wow scaleOutIn" data-wow-duration="1.2s" /></a>
                     </div>
 
                     <h3 class="post-prev-title">
-                        <a href="blog-single-sidebar-right-dark.html">Clean Style in the Web</a>
+                        <a href="blog-single-sidebar-right-dark.html">TITULO</a>
                     </h3>
 
                     <div class="post-prev-info">
-                        <a href="">John Doe</a> • 7 December
+                        <a href="">Empresa impartidora</a> • horas</a><br>
+                        <a href="">Categoría</a>
                     </div>
 
                     <div class="post-prev-text">
-                        Ember adipiscing elite curabitur iaculis accumsan augu nec finibus mauris pretium eu. Duis placerat ex gravida nibh tristique ultricies eros lorem blandit.
+                        Breve descripcion - Proin fringilla augue at maximus vestibulum. Nam pulvi vitae neque et porttitor. Praesent sed nisi eleifend, lorem fermentum ac ante lorem ipsum sit amet.
                     </div>
-
-                    <div class="post-prev-more">
-                        <a href="blog-single-sidebar-right-dark.html" class="text-link" tabindex="-1">Learn More</a>
-                    </div>
-
                 </div>
                 <!-- End Post Item -->
 
@@ -309,51 +257,21 @@
                 <div class="col-sm-6 col-md-4 mb-60 mb-xs-40">
 
                     <div class="post-prev-img">
-                        <a href="blog-single-sidebar-right-dark.html" tabindex="-1"><img src="assets/img/blog/post-prev-8.jpg" alt="" class="wow scaleOutIn" data-wow-duration="1.2s" /></a>
-                    </div>
-
-                    <div class="post-prev-title">
-                        <a href="blog-single-sidebar-right-dark.html">Duis Tristique Condimentum</a>
-                    </div>
-
-                    <div class="post-prev-info">
-                        <a href="">John Doe</a> • 10 December
-                    </div>
-
-                    <div class="post-prev-text">
-                        Lorem ipsum dolor sit amet, rembe adipiscing elite. Inwege maximus ligula semper metusere pellentesque mattis. Maecenas volutpat, diam enime volutpa.
-                    </div>
-
-                    <div class="post-prev-more">
-                        <a href="blog-single-sidebar-right-dark.html" class="text-link" tabindex="-1">Learn More</a>
-                    </div>
-
-                </div>
-                <!-- End Post Item -->
-
-                <!-- Post Item -->
-                <div class="col-sm-6 col-md-4 mb-60 mb-xs-40">
-
-                    <div class="post-prev-img">
-                        <a href="blog-single-sidebar-right-dark.html" tabindex="-1"><img src="assets/img/blog/post-prev-9.jpg" alt="" class="wow scaleOutIn" data-wow-duration="1.2s" /></a>
+                        <a href="blog-single-sidebar-right-dark.html" tabindex="-1"><img src="assets/img/blog/post-prev-2.jpg" alt="" class="wow scaleOutIn" data-wow-duration="1.2s" /></a>
                     </div>
 
                     <h3 class="post-prev-title">
-                        <a href="blog-single-sidebar-right-dark.html">Meet the New Web Design Trends</a>
+                        <a href="blog-single-sidebar-right-dark.html">TITULO</a>
                     </h3>
 
                     <div class="post-prev-info">
-                        <a href="">John Doe</a> • 10 December
+                        <a href="">Empresa impartidora</a> • horas</a><br>
+                        <a href="">Categoría</a>
                     </div>
 
                     <div class="post-prev-text">
-                        Lorem ipsum dolor sit amet, rembe adipiscing elite. Inwege maximus ligula semper metusere pellentesque mattis. Maecenas volutpat, diam enime volutpa.
+                        Breve descripcion - Proin fringilla augue at maximus vestibulum. Nam pulvi vitae neque et porttitor. Praesent sed nisi eleifend, lorem fermentum ac ante lorem ipsum sit amet.
                     </div>
-
-                    <div class="post-prev-more">
-                        <a href="blog-single-sidebar-right-dark.html" class="text-link" tabindex="-1">Learn More</a>
-                    </div>
-
                 </div>
                 <!-- End Post Item -->
 
@@ -361,25 +279,21 @@
                 <div class="col-sm-6 col-md-4 mb-60 mb-xs-40">
 
                     <div class="post-prev-img">
-                        <a href="blog-single-sidebar-right-dark.html" tabindex="-1"><img src="assets/img/blog/post-prev-10.jpg" alt="" class="wow scaleOutIn" data-wow-duration="1.2s" /></a>
+                        <a href="blog-single-sidebar-right-dark.html" tabindex="-1"><img src="assets/img/blog/post-prev-2.jpg" alt="" class="wow scaleOutIn" data-wow-duration="1.2s" /></a>
                     </div>
 
                     <h3 class="post-prev-title">
-                        <a href="blog-single-sidebar-right-dark.html">Minimalistic Product Design</a>
+                        <a href="blog-single-sidebar-right-dark.html">TITULO</a>
                     </h3>
 
                     <div class="post-prev-info">
-                        <a href="">John Doe</a> • 9 December
+                        <a href="">Empresa impartidora</a> • horas</a><br>
+                        <a href="">Categoría</a>
                     </div>
 
                     <div class="post-prev-text">
-                        Proin fringilla augue at maximus vestibulum. Nam pulvi vitae neque et porttitor. Praesent sed nisi eleifend, lorem fermentum ac ante lorem ipsum sit amet.
+                        Breve descripcion - Proin fringilla augue at maximus vestibulum. Nam pulvi vitae neque et porttitor. Praesent sed nisi eleifend, lorem fermentum ac ante lorem ipsum sit amet.
                     </div>
-
-                    <div class="post-prev-more">
-                        <a href="blog-single-sidebar-right-dark.html" class="text-link" tabindex="-1">Learn More</a>
-                    </div>
-
                 </div>
                 <!-- End Post Item -->
 
@@ -387,25 +301,21 @@
                 <div class="col-sm-6 col-md-4 mb-60 mb-xs-40">
 
                     <div class="post-prev-img">
-                        <a href="blog-single-sidebar-right-dark.html" tabindex="-1"><img src="assets/img/blog/post-prev-11.jpg" alt="" class="wow scaleOutIn" data-wow-duration="1.2s" /></a>
+                        <a href="blog-single-sidebar-right-dark.html" tabindex="-1"><img src="assets/img/blog/post-prev-2.jpg" alt="" class="wow scaleOutIn" data-wow-duration="1.2s" /></a>
                     </div>
 
                     <h3 class="post-prev-title">
-                        <a href="blog-single-sidebar-right-dark.html">Clean Style in the Web</a>
+                        <a href="blog-single-sidebar-right-dark.html">TITULO</a>
                     </h3>
 
                     <div class="post-prev-info">
-                        <a href="">John Doe</a> • 7 December
+                        <a href="">Empresa impartidora</a> • horas</a><br>
+                        <a href="">Categoría</a>
                     </div>
 
                     <div class="post-prev-text">
-                        Ember adipiscing elite curabitur iaculis accumsan augu nec finibus mauris pretium eu. Duis placerat ex gravida nibh tristique ultricies eros lorem blandit.
+                        Breve descripcion - Proin fringilla augue at maximus vestibulum. Nam pulvi vitae neque et porttitor. Praesent sed nisi eleifend, lorem fermentum ac ante lorem ipsum sit amet.
                     </div>
-
-                    <div class="post-prev-more">
-                        <a href="blog-single-sidebar-right-dark.html" class="text-link" tabindex="-1">Learn More</a>
-                    </div>
-
                 </div>
                 <!-- End Post Item -->
 
@@ -413,25 +323,43 @@
                 <div class="col-sm-6 col-md-4 mb-60 mb-xs-40">
 
                     <div class="post-prev-img">
-                        <a href="blog-single-sidebar-right-dark.html" tabindex="-1"><img src="assets/img/blog/post-prev-12.jpg" alt="" class="wow scaleOutIn" data-wow-duration="1.2s" /></a>
+                        <a href="blog-single-sidebar-right-dark.html" tabindex="-1"><img src="assets/img/blog/post-prev-2.jpg" alt="" class="wow scaleOutIn" data-wow-duration="1.2s" /></a>
                     </div>
 
-                    <div class="post-prev-title">
-                        <a href="blog-single-sidebar-right-dark.html">Duis Tristique Condimentum</a>
-                    </div>
+                    <h3 class="post-prev-title">
+                        <a href="blog-single-sidebar-right-dark.html">TITULO</a>
+                    </h3>
 
                     <div class="post-prev-info">
-                        <a href="">John Doe</a> • 10 December
+                        <a href="">Empresa impartidora</a> • horas</a><br>
+                        <a href="">Categoría</a>
                     </div>
 
                     <div class="post-prev-text">
-                        Lorem ipsum dolor sit amet, rembe adipiscing elite. Inwege maximus ligula semper metusere pellentesque mattis. Maecenas volutpat, diam enime volutpa.
+                        Breve descripcion - Proin fringilla augue at maximus vestibulum. Nam pulvi vitae neque et porttitor. Praesent sed nisi eleifend, lorem fermentum ac ante lorem ipsum sit amet.
+                    </div>
+                </div>
+                <!-- End Post Item -->
+
+                <!-- Post Item -->
+                <div class="col-sm-6 col-md-4 mb-60 mb-xs-40">
+
+                    <div class="post-prev-img">
+                        <a href="blog-single-sidebar-right-dark.html" tabindex="-1"><img src="assets/img/blog/post-prev-2.jpg" alt="" class="wow scaleOutIn" data-wow-duration="1.2s" /></a>
                     </div>
 
-                    <div class="post-prev-more">
-                        <a href="blog-single-sidebar-right-dark.html" class="text-link" tabindex="-1">Learn More</a>
+                    <h3 class="post-prev-title">
+                        <a href="blog-single-sidebar-right-dark.html">TITULO</a>
+                    </h3>
+
+                    <div class="post-prev-info">
+                        <a href="">Empresa impartidora</a> • horas</a><br>
+                        <a href="">Categoría</a>
                     </div>
 
+                    <div class="post-prev-text">
+                        Breve descripcion - Proin fringilla augue at maximus vestibulum. Nam pulvi vitae neque et porttitor. Praesent sed nisi eleifend, lorem fermentum ac ante lorem ipsum sit amet.
+                    </div>
                 </div>
                 <!-- End Post Item -->
 
