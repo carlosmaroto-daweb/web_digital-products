@@ -24,11 +24,29 @@
 }
 
 .footer-social-links {
-    float: right;
+    display: flex;
+    flex-direction: column;
 }
 
 .footer-social-links a {
     text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.informacion-legal {
+    text-align: center;
+    background-color: black;
+    border-radius: 30px;
+    padding: 20px 0px;
+}
+
+.informacion-legal a {
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-radius: 30px;
+    padding: 10px 20px;
 }
 
 .sostenibilidad-app {

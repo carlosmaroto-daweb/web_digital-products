@@ -3,15 +3,6 @@
                 <div class="container">
                     <div class="footer-info">
                         <div>
-                            <h5>Información legal</h5>
-                            <ul>
-                                <li><a href="index.php?route=privacy">Política de privacidad</a></li>
-                                <li><a href="index.php?route=cookies">Política de cookies</a></li>
-                                <li><a href="index.php?route=aviso">Aviso legal</a></li>
-                            </ul>
-                        </div>
-
-                        <div>
                             <h5>Sitios</h5>
                             <ul>
                                 <li><a href="index.php?route=login">Área privada</a></li>
@@ -30,15 +21,21 @@
                             <br/>
                             Correo: area14@gmail.com
                         </div>
+
+                        <!-- Social Links -->
+                        <div class="footer-social-links">
+                            <a href="#" title="Facebook" target="_blank"><i class="fab fa-facebook-f"></i> <span class="sr-only">Facebook profile</span></a>
+                            <a href="#" title="Twitter" target="_blank"><i class="fab fa-twitter"></i> <span class="sr-only">Twitter profile</span></a>
+                            <a href="#" title="Instagram" target="_blank"><i class="fab fa-instagram"></i> <span class="sr-only">Instagram profile</span></a>
+                        </div>
+                        <!-- End Social Links -->
                     </div>
 
-                    <!-- Social Links -->
-                    <div class="footer-social-links pt-90 mb-xs-40">
-                        <a href="#" title="Facebook" target="_blank"><i class="fab fa-facebook-f"></i> <span class="sr-only">Facebook profile</span></a>
-                        <a href="#" title="Twitter" target="_blank"><i class="fab fa-twitter"></i> <span class="sr-only">Twitter profile</span></a>
-                        <a href="#" title="Instagram" target="_blank"><i class="fab fa-instagram"></i> <span class="sr-only">Instagram profile</span></a>
+                    <div class="informacion-legal">
+                        <a href="index.php?route=privacy">Política de privacidad</a>
+                        <a href="index.php?route=cookies">Política de cookies</a>
+                        <a href="index.php?route=aviso">Aviso legal</a></li>
                     </div>
-                    <!-- End Social Links -->
                 </div>
                  
                  <!-- Top Link -->
