@@ -48,19 +48,6 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                         <i class="fa fa-bars"></i>
                         <span class="sr-only">Menu</span>
                     </div>
-                    
-                    <!-- Main Menu -->
-                    <div class="inner-nav desktop-nav">
-                        <ul class="clearlist scroll-nav local-scroll">
-                            <li class="active"><a href="index.php">Home</a></li>
-                            <li><a href="index.php?route=about">About</a></li>
-                            <li><a href="index.php?route=services">Services</a></li>
-                            <li><a href="index.php?route=app">App</a></li>
-                            <li><a href="index.php?route=contact">Contact</a></li>
-                            <li><a href="index.php?route=login">Login</a></li>
-                        </ul>
-                    </div>
-                    <!-- End Main Menu -->
 
                     <!-- Main Menu -->
                     <div class="inner-nav desktop-nav">
