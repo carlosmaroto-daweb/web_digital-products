@@ -775,7 +775,7 @@
 
 
                 <!-- Section -->
-                <section class="page-section light-content bg-dark bg-dark-alfa-70 sostenibilidad-app" data-background="assets/img/proyecto/sostenibilidad-app.jpg">
+                <section class="page-section light-content bg-dark bg-dark-alfa-50 sostenibilidad-app" data-background="assets/img/proyecto/sostenibilidad-app-2.jpg">
                     <div class="container relative">
                         
                         <div class="wow fadeInUpShort">                            
