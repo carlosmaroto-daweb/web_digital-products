@@ -1,0 +1,24 @@
+.footer-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-info ul {
+    padding-left: 0px;
+}
+
+.footer-info li {
+    list-style: none;
+}
+
+.footer-info li::before {
+    content: "\f105";
+    font-family: "Font Awesome 5 Free";
+    font-size: 16px;
+    font-weight: 900;
+	margin-right: 10px;
+}
+
+.footer-social-links {
+    float: right;
+}

@@ -6,3 +6,4 @@
         <link rel="stylesheet" href="assets/css/owl.carousel.css">
         <link rel="stylesheet" href="assets/css/animate.min.css">
         <link rel="stylesheet" href="assets/css/splitting.css">
+        <link rel="stylesheet" href="assets/css/proyecto/style.css">
