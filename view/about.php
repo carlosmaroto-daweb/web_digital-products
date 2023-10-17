@@ -1,14 +1,14 @@
             <main id="main">    
             
                 <!-- Home Section -->
-                <section class="small-section bg-dark-alfa-50 bg-scroll light-content" data-background="assets/img/full-width-images/section-bg-19.jpg" id="home">
+                <section class="small-section bg-dark-alfa-50 bg-scroll light-content" data-background="assets/img/proyecto/header.jpg" id="home">
                     <div class="container relative pt-70">
                     
                         <div class="row">
                             
                             <div class="col-md-8">
                                 <div class="wow fadeInUpShort" data-wow-delay=".1s">
-                                    <h1 class="hs-line-7 mb-20 mb-xs-10">About Us</h1>
+                                    <h1 class="hs-line-7 mb-20 mb-xs-10">Quienes Somos</h1>
                                 </div>
                                 <div class="wow fadeInUpShort" data-wow-delay=".2s">
                                     <p class="hs-line-6 opacity-075 mb-20 mb-xs-0">
@@ -19,7 +19,7 @@
                             
                             <div class="col-md-4 mt-30 wow fadeInUpShort" data-wow-delay=".1s">
                                 <div class="mod-breadcrumbs text-end">
-                                    <a href="#">Home</a>&nbsp;<span class="mod-breadcrumbs-slash">•</span>&nbsp;<a href="#">Pages</a>&nbsp;<span class="mod-breadcrumbs-slash">•</span>&nbsp;<span>About Us</span>
+                                    <a href="#">Home</a>&nbsp;<span class="mod-breadcrumbs-slash">•</span>&nbsp;<a href="#">Pages</a>&nbsp;<span class="mod-breadcrumbs-slash">•</span>&nbsp;<span>Quienes Somos</span>
                                 </div>                                
                             </div>
                             
