@@ -8,7 +8,7 @@
             <div class="home-content text-start">
                 <div class="row">
                     <div class="col-md-9 col-lg-7">
-                        <h1 class="hs-line-3 mb-30 mb-xs-20 wow fadeInUpShort" data-wow-delay=".1s">Servicio 1</h1>
+                        <h1 class="hs-line-3 mb-30 mb-xs-20 wow fadeInUpShort" data-wow-delay=".1s">Registro retributivo</h1>
 
                         <h2 class="hs-line-5 mb-60 mb-xs-40 wow fadeInUpShort" data-wow-delay=".2s">
                             We bring innovation ideas into

@@ -9,7 +9,7 @@
 
                         <!-- Hero Content -->
                         <div class="home-content">
-                            <h1 class="hs-line-4 mb-30 mb-xs-20 owl-animate-1">Servicio 2</h1>
+                            <h1 class="hs-line-4 mb-30 mb-xs-20 owl-animate-1">Plan de igualdad</h1>
                             <h2 class="hs-line-7 mb-60 mb-xs-40 owl-animate-2 owl-delay-450">We turn ideas into reality</h2>
                             <div class="local-scroll mb-20 owl-animate-3 owl-delay-700">
                                 <a href="#about" class="btn btn-mod btn-w btn-medium btn-round mx-md-1">Saber más</a>
