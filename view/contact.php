@@ -10,7 +10,7 @@
 
                 <div class="col-md-8">
                     <div class="wow fadeInUpShort" data-wow-delay=".1s">
-                        <h1 class="hs-line-7 mb-20 mb-xs-10">Contact</h1>
+                        <h1 class="hs-line-7 mb-20 mb-xs-10">Contacto</h1>
                     </div>
                     <div class="wow fadeInUpShort" data-wow-delay=".2s">
                         <p class="hs-line-6 opacity-075 mb-20 mb-xs-0">
