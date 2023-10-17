@@ -1,3 +1,42 @@
+<style>
+    /*
+    .come-from-modal.left .modal-dialog,
+    .come-from-modal.right .modal-dialog {
+        position: fixed;
+        margin: auto;
+        width: 320px;
+        height: 100%;
+        -webkit-transform: translate3d(0%, 0, 0);
+        -ms-transform: translate3d(0%, 0, 0);
+        -o-transform: translate3d(0%, 0, 0);
+        transform: translate3d(0%, 0, 0);
+    }
+
+    .come-from-modal.left .modal-content,
+    .come-from-modal.right .modal-content {
+        height: 100%;
+        overflow-y: auto;
+        border-radius: 0px;
+    }
+
+    .come-from-modal.left .modal-body,
+    .come-from-modal.right .modal-body {
+        padding: 15px 15px 80px;
+    }
+
+    .come-from-modal.right.fade .modal-dialog {
+        right: -320px;
+        -webkit-transition: opacity 0.3s linear, right 0.3s ease-out;
+        -moz-transition: opacity 0.3s linear, right 0.3s ease-out;
+        -o-transition: opacity 0.3s linear, right 0.3s ease-out;
+        transition: opacity 0.3s linear, right 0.3s ease-out;
+    }
+
+    .come-from-modal.right.fade.in .modal-dialog {
+        right: 0;
+    }*/
+</style>
+
 <main id="main">
 
     <!-- Home Section -->
@@ -29,12 +68,24 @@
     </section>
     <!-- End Home Section -->
 
-
     <!-- Section -->
     <section class="page-section bg-dark">
+        <div class="modal fade  come-from-modal right" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                    </div>
+                    <div class="modal-body">
+                        modal
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="container relative">
 
-            <div class="mb-60 mb-xs-40">
+            <div class="mb-60 mb-xs-60">
                 <div class="row">
                     <div class="col-10">
                         <form class="form">
@@ -48,12 +99,13 @@
                     </div>
                     <div class="col-2">
                         <div class="mb-10">
-                            <a href="#" class="btn btn-mod btn-w btn-round btn-medium">Filtro</a>
+                            <button type="button" class="btn btn-mod btn-w btn-round btn-medium" data-toggle="modal" data-target="#myModal">
+                                Filtro
+                            </button>
                         </div>
                     </div>
                 </div>
             </div>
-
 
 
             <div class="row">

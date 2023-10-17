@@ -179,19 +179,19 @@
                         <div class="row">
                             
                             <!-- Images --> 
-                            <div class="col-lg-7 mb-md-60 mb-xs-30">                                                               
+                            <div class="col-lg-8 mb-md-60 mb-xs-30">                                                               
                                 <div class="call-action-2-images">
                                     
                                     <div class="call-action-2-image-1">
-                                        <img src="assets/img/proyecto/calidad-centralizacion.jpg" alt="" class="wow scaleOutIn" data-wow-duration="1.2s" data-wow-offset="255" />
+                                        <img src="assets/img/proyecto/compromiso-2.jpg" alt="" class="wow scaleOutIn" data-wow-duration="1.2s" data-wow-offset="255" />
                                     </div>
                                     
                                     <div class="call-action-2-image-2">
-                                        <img src="assets/img/proyecto/sostenibilidad.jpg" alt="" class="wow scaleOutIn" data-wow-duration="1.2s" data-wow-offset="134" />
+                                        <img src="assets/img/proyecto/calidad-centralizacion.jpg" alt="" class="wow scaleOutIn" data-wow-duration="1.2s" data-wow-offset="134" />
                                     </div>
                                     
                                     <div class="call-action-2-image-3">
-                                        <img src="assets/img/proyecto/compromiso.jpg" alt="" class="wow scaleOutIn" data-wow-duration="1.2s" data-wow-offset="0" />
+                                        <img src="assets/img/proyecto/sostenibilidad-2.jpg" alt="" class="wow scaleOutIn" data-wow-duration="1.2s" data-wow-offset="0" />
                                     </div>
                                     
                                 </div>                                                                              
@@ -199,7 +199,7 @@
                             <!-- End Images -->
                             
                             <!-- Text -->
-                            <div class="col-lg-5 wow fadeInUpShort" data-wow-duration="1.2s" data-wow-offset="255">
+                            <div class="col-lg-4 wow fadeInUpShort" data-wow-duration="1.2s" data-wow-offset="255">
                                 
                                 <h2 class="section-title mb-50 mb-sm-20">Why choose us?</h2>
                                 
