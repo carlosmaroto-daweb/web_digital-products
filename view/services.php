@@ -1,57 +1,58 @@
         <main id="main">
-
+            
             <!-- Home Section -->
-            <section class="home-section bg-dark-alfa-50 light-content relative" data-background="assets/img/full-width-images/section-bg-19.jpg" id="home">
-                <div class="container min-height-100vh d-flex align-items-center pt-100 pb-100">
-
-                    <!-- Hero Content -->
-                    <div class="home-content">
-                        <h1 class="hs-line-3 mb-40 mb-xs-20 wow fadeInUpShort" data-wow-delay=".1s">SERVICIOS</h1>
-                        <h2 class="hs-line-2 mb-70 mb-xs-40 wow fadeInUpShort" data-wow-delay=".2s">
-                            <span class="text-rotate">
-                                Super Creative Studio,
-                                Smart Design Makers,
-                                Minimalism Lovers
-                            </span>
-                        </h2>
-                        <div class="local-scroll mb-20 wow fadeInUpShort" data-wow-delay=".3s">
-                            <a href="#about" class="btn btn-mod btn-w btn-large btn-round mx-md-1">Más información</a>
+            <section class="small-section bg-dark-alfa-50 bg-scroll light-content" data-background="assets/img/full-width-images/section-bg-19.jpg" id="home">
+                <div class="container relative pt-70">
+                
+                    <div class="row">
+                        
+                        <div class="col-md-8">
+                            <div class="wow fadeInUpShort" data-wow-delay=".1s">
+                                <h1 class="hs-line-7 mb-20 mb-xs-10">About Us</h1>
+                            </div>
+                            <div class="wow fadeInUpShort" data-wow-delay=".2s">
+                                <p class="hs-line-6 opacity-075 mb-20 mb-xs-0">
+                                    Extraordinary art team &&nbsp;creative minimalism lovers
+                                </p>
+                            </div>
                         </div>
+                        
+                        <div class="col-md-4 mt-30 wow fadeInUpShort" data-wow-delay=".1s">
+                            <div class="mod-breadcrumbs text-end">
+                                <a href="#">Home</a>&nbsp;<span class="mod-breadcrumbs-slash">•</span>&nbsp;<a href="#">Pages</a>&nbsp;<span class="mod-breadcrumbs-slash">•</span>&nbsp;<span>About Us</span>
+                            </div>                                
+                        </div>
+                        
                     </div>
-                    <!-- End Hero Content -->
-
-                    <!-- Scroll Down -->
-                    <div class="local-scroll scroll-down-wrap wow fadeInUpShort" data-wow-offset="0">
-                        <a href="#about" class="scroll-down"><i class="scroll-down-icon"></i><span class="sr-only">Desplazar a la siguiente sección</span></a>
-                    </div>
-                    <!-- End Scroll Down -->
-
+                
                 </div>
             </section>
             <!-- End Home Section -->
 
 
-            <!-- About Section -->
-            <section class="page-section bg-dark light-content" id="about">
+            <!-- Section -->
+            <section class="page-section bg-dark light-content">
                 <div class="container relative">
-
-                    <div class="mb-140 mb-sm-70">
-                        <div class="row section-text">
-
-                            <div class="col-sm-6 mb-40">
-                                <div class="lead-alt wow linesAnimIn" data-splitting="lines">
-                                    Información
-                                </div>
-                            </div>
-
-                            <div class="col-sm-6 mb-40 wow linesAnimIn" data-splitting="lines">
-                                Lorem ipsum dolor sit amet conseur adipisci inerene maximus ligula sempe metuse pelente mattis. Maecenas volutpat, diam eni sagittise quame porta quam. Sed id dolor consectetur fermentum volutpat accumsan purus.
-                            </div>
-
+                    
+                    <div class="row">
+                        
+                        <div class="col-lg-5 mb-md-60 wow fadeScaleIn" data-wow-duration="1.5s">
+                            <img src="assets/img/split-image-1.jpg" alt="Add Your Description" />
                         </div>
+                        
+                        <div class="col-lg-6 offset-lg-1 d-flex align-items-center wow fadeInUpShort">
+                            <div>
+                                <h2 class="section-title mb-50 mb-sm-20">The Story</h2>
+                                <p>Lorem ipsum dolor sit amet conseur adipisci inerene maximus sempe pelentemattis. Maecenas volutpat, diam eni sagittis quam porta quam. Sedidolor consectetur fermentum volutpat accumsan purus. Curabitur adipiscing lacus, a iaculis diam. Nullam placerat blandit auctor. </p>
+                                <p>Etiam sit amet fringilla lacus susantebe sit ullamcorper pulvinar neque porttitor. Integere lectus. Praesent sede nisi eleifend fermum orci amet, iaculis libero. Donec vel ultricies purus.Nulla accumsan ipsum et nibh rhoncus, eget tempus sapien ultricies. Donec mollis lorem vehicula. Namebere dictum sem ipsumebe euliquam.</p>
+                            </div>
+                        </div>
+                        
                     </div>
+                    
+                </div>
             </section>
-            <!-- End About Section -->
+            <!-- End Section -->
 
 
             <!-- Divider -->
@@ -86,7 +87,7 @@
                                     Lorem ipsum dolor sit amet, rembe adipiscing elite. Inwege maximus ligula semper metusere pellentesque mattis. Maecenas volutpat, diam enime volutpa.
                                 </div>
                                 <div class="services-more">
-                                    <a href="index.php?route=services1" class="text-link">Saber más</a>
+                                    <a href="index.php?route=PD" class="text-link">Saber más</a>
                                 </div>
                             </div>
                         </div>
@@ -105,7 +106,7 @@
                                     Proin fringilla augue at maximus vestibulum. Nam pulvitaere neque et porttitor. Praesent sed nisi eleifend lorem fermentum ac ante lorem ipsum sit amet.
                                 </div>
                                 <div class="services-more">
-                                    <a href="index.php?route=services2" class="text-link">Saber más</a>
+                                    <a href="index.php?route=PI" class="text-link">Saber más</a>
                                 </div>
                             </div>
                         </div>
@@ -124,7 +125,7 @@
                                     Lorem ipsum dolor sit amet, rembe adipiscing elite. Inwege maximus ligula semper metusere pellentesque mattis. Maecenas volutpat, diam enime volutpa.
                                 </div>
                                 <div class="services-more">
-                                    <a href="index.php?route=services1" class="text-link">Saber más</a>
+                                    <a href="index.php?route=RR" class="text-link">Saber más</a>
                                 </div>
                             </div>
                         </div>
@@ -142,7 +143,7 @@
                                     Lorem ipsum dolor sit amet, rembe adipiscing elite. Inwege maximus ligula semper metusere pellentesque mattis. Maecenas volutpat, diam enime volutpa.
                                 </div>
                                 <div class="services-more">
-                                    <a href="index.php?route=services1" class="text-link">Saber más</a>
+                                    <a href="index.php?route=PA" class="text-link">Saber más</a>
                                 </div>
                             </div>
                         </div>
@@ -160,7 +161,7 @@
                                     Lorem ipsum dolor sit amet, rembe adipiscing elite. Inwege maximus ligula semper metusere pellentesque mattis. Maecenas volutpat, diam enime volutpa.
                                 </div>
                                 <div class="services-more">
-                                    <a href="index.php?route=services1" class="text-link">Saber más</a>
+                                    <a href="index.php?route=LSSI" class="text-link">Saber más</a>
                                 </div>
                             </div>
                         </div>
@@ -179,7 +180,7 @@
                                     Lorem ipsum dolor sit amet, rembe adipiscing elite. Inwege maximus ligula semper metusere pellentesque mattis. Maecenas volutpat, diam enime volutpa.
                                 </div>
                                 <div class="services-more">
-                                    <a href="index.php?route=services1" class="text-link">Saber más</a>
+                                    <a href="index.php?route=ciberseguridad" class="text-link">Saber más</a>
                                 </div>
                             </div>
                         </div>
@@ -198,7 +199,7 @@
                                     Proin fringilla augue at maximus vestibulum. Nam pulvitaere neque et porttitor. Praesent sed nisi eleifend lorem fermentum ac ante lorem ipsum sit amet.
                                 </div>
                                 <div class="services-more">
-                                    <a href="index.php?route=services2" class="text-link">Saber más</a>
+                                    <a href="index.php?route=CH" class="text-link">Saber más</a>
                                 </div>
                             </div>
                         </div>
@@ -217,7 +218,7 @@
                                     Lorem ipsum dolor sit amet, rembe adipiscing elite. Inwege maximus ligula semper metusere pellentesque mattis. Maecenas volutpat, diam enime volutpa.
                                 </div>
                                 <div class="services-more">
-                                    <a href="index.php?route=services1" class="text-link">Saber más</a>
+                                    <a href="index.php?route=BCD" class="text-link">Saber más</a>
                                 </div>
                             </div>
                         </div>
@@ -235,7 +236,7 @@
                                     Lorem ipsum dolor sit amet, rembe adipiscing elite. Inwege maximus ligula semper metusere pellentesque mattis. Maecenas volutpat, diam enime volutpa.
                                 </div>
                                 <div class="services-more">
-                                    <a href="index.php?route=services1" class="text-link">Saber más</a>
+                                    <a href="index.php?route=PRL" class="text-link">Saber más</a>
                                 </div>
                             </div>
                         </div>
@@ -247,127 +248,41 @@
                 </div>
             </section>
             <!-- End Services Section -->
-
-
-
-            <!-- Divider -->
-            <hr class="mt-0 mb-0 white" />
-            <!-- End Divider -->
-
-
-
-            <!-- Contact Section -->
-            <section class="page-section bg-dark light-content" id="contact">
+                
+                
+            <!-- Call Action Section -->
+            <section class="page-section pt-0 pb-0 banner-section bg-dark-lighter light-content">
                 <div class="container relative">
-
-                    <div class="text-center mb-80 mb-sm-50">
-                        <h2 class="section-title">Contacto</h2>
-                        <p class="section-title-descr">
-                            Estamos disponibles para los nuevos proyectos.
-                        </p>
-                    </div>
-
-                    <div class="row mb-60 mb-xs-40">
-
-                        <div class="col-md-10 offset-md-1">
-                            <div class="row">
-
-                                <!-- Phone -->
-                                <div class="col-sm-6 mb-40">
-                                    <div class="contact-item wow fadeScaleIn" data-wow-delay="0" data-wow-duration="1s">
-                                        <div class="ci-icon">
-                                            <i class="fa fa-phone-alt"></i>
-                                        </div>
-                                        <div class="ci-title">
-                                            Call Us
-                                        </div>
-                                        <div class="ci-text">
-                                            +61 383 767 284
-                                        </div>
+                    
+                    <div class="row">
+                        
+                        <div class="col-lg-5 offset-lg-1">                                
+                            <div class="mt-140 mt-lg-80 mt-md-60 mt-xs-30 mb-140 mb-lg-80">
+                                <div class="banner-content wow fadeInUpShort" data-wow-duration="1.2s">
+                                    <h3 class="banner-heading">Looking for exclusive digital services?</h3>
+                                    <div class="banner-decription">
+                                        Proin fringilla augue at maximus vestibulum. Nam pulvinar vitae porttitor. Integer non dapibus diam, ac eleifend lectus.
+                                    </div>
+                                    <div class="local-scroll">
+                                        <a href="pages-services-1-dark.html" class="btn btn-mod btn-w btn-large btn-round">View Services</a>
                                     </div>
                                 </div>
-                                <!-- End Phone -->
+                            </div>                                
+                        </div>
 
-                                <!-- Email -->
-                                <div class="col-sm-6 mb-40">
-                                    <div class="contact-item wow fadeScaleIn" data-wow-delay=".2s" data-wow-duration="1s">
-                                        <div class="ci-icon">
-                                            <i class="fa fa-envelope"></i>
-                                        </div>
-                                        <div class="ci-title">
-                                            Email
-                                        </div>
-                                        <div class="ci-text">
-                                            support@bestlooker.pro
-                                        </div>
-                                        <div class="ci-link">
-                                            <a href="mailto:support@bestlooker.pro">Say Hello</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- End Email -->
-
+                        <div class="col-lg-6 relative">
+                            <div class="banner-image-1">
+                                <img src="assets/img/promo-1.jpg" alt="" class="wow scaleOutIn" data-wow-duration="1.2s" data-wow-offset="292" />
+                            </div>
+                            <div class="banner-image-2">
+                                <img src="assets/img/promo-2.jpg" alt="" class="wow scaleOutIn" data-wow-duration="1.2s" data-wow-offset="70" />
                             </div>
                         </div>
-
+                        
                     </div>
-
-                    <!-- Contact Form -->
-                    <div class="row">
-                        <div class="col-md-10 offset-md-1">
-
-                            <form class="form contact-form wow fadeInUpShort" data-wow-delay=".5s" id="contact_form">
-
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <!-- Name -->
-                                        <div class="form-group">
-                                            <label for="name">Nombre</label>
-                                            <input type="text" name="name" id="name" class="input-lg round form-control" placeholder="Enter your name" pattern=".{3,100}" required aria-required="true">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <!-- Email -->
-                                        <div class="form-group">
-                                            <label for="email">Email</label>
-                                            <input type="email" name="email" id="email" class="input-lg round form-control" placeholder="Enter your email" pattern=".{5,100}" required aria-required="true">
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <!-- Message -->
-                                <div class="form-group">
-                                    <label for="message">Mensaje</label>
-                                    <textarea name="message" id="message" class="input-lg round form-control" style="height: 130px;" placeholder="Enter your message"></textarea>
-                                </div>
-
-                                <div class="row">
-                                    <div class="col-sm-6">
-                                        <!-- Inform Tip -->
-                                        <div class="form-tip pt-20 pt-sm-0 mb-sm-20">
-                                            Todos los campos son requeridos.
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <!-- Send Button -->
-                                        <div class="text-end pt-10">
-                                            <button class="submit_btn btn btn-mod btn-w btn-large btn-round" id="submit_btn" aria-controls="result">
-                                                Enviar mensaje
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div id="result" role="region" aria-live="polite" aria-atomic="true"></div>
-
-                            </form>
-
-                        </div>
-                    </div>
-                    <!-- End Contact Form -->
-
+                    
                 </div>
             </section>
-            <!-- End Contact Section -->
+            <!-- End Call Action Section -->
 
         </main>

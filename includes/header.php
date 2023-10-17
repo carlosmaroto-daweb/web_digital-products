@@ -87,6 +87,9 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                                     <li>
                                         <a href="index.php?route=PRL" class="mn-group-title">PRL</a>
                                     </li>
+                                    <li>
+                                        <a href="index.php?route=consultoria" class="mn-group-title">Consultoría</a>
+                                    </li>
                                 </ul>
                             </li>
                             <li>
