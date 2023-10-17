@@ -36,9 +36,7 @@
                     <div class="footer-social-links pt-90 mb-xs-40">
                         <a href="#" title="Facebook" target="_blank"><i class="fab fa-facebook-f"></i> <span class="sr-only">Facebook profile</span></a>
                         <a href="#" title="Twitter" target="_blank"><i class="fab fa-twitter"></i> <span class="sr-only">Twitter profile</span></a>
-                        <a href="#" title="Twitter" target="_blank"><i class="fab fa-vimeo-v"></i> <span class="sr-only">Vimeo profile</span></a>
-                        <a href="#" title="Behance" target="_blank"><i class="fab fa-behance"></i> <span class="sr-only">Behance profile</span></a>
-                        <a href="#" title="Pinterest" target="_blank"><i class="fab fa-pinterest"></i> <span class="sr-only">Pinterest profile</span></a>
+                        <a href="#" title="Instagram" target="_blank"><i class="fab fa-instagram"></i> <span class="sr-only">Instagram profile</span></a>
                     </div>
                     <!-- End Social Links -->
                 </div>
