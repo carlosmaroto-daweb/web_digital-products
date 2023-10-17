@@ -32,10 +32,6 @@
 
 
 
-
-
-
-
     <!-- ................MODAL...........  -->
     <div class="container demo mt-5 mb-5">
 
