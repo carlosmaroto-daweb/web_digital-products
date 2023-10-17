@@ -79,11 +79,10 @@
     <!-- Section -->
     <section class="page-section bg-dark">
 
-        <div class="container relative">
-
+        <div class="container-fluid">
             <div class="mb-60 mb-xs-60">
-                <div class="row justify-content-around">
-                    <div class=" col-10">
+                <div class="row d-flex text-center align-items-center justify-content-center">
+                    <div class="col-4 col-sm-4">
                         <form class="form">
                             <div class="search-wrap">
                                 <button class="search-button animate" type="submit" title="Start Search">
@@ -93,12 +92,10 @@
                             </div>
                         </form>
                     </div>
-                    <div class="col-2 justify-content-end">
-                        <div class="float-right ">
-                            <button type="button" class="btn btn-mod btn-w btn-round btn-medium float-end" data-toggle="modal" data-target="#myModal">
-                                Filtro
-                            </button>
-                        </div>
+                    <div class="col-1 col-sm-1">
+                        <button type="button" class="btn btn-mod btn-w btn-round btn-medium" data-toggle="modal" data-target="#myModal">
+                            Filtro
+                        </button>
                     </div>
                 </div>
             </div>
@@ -108,7 +105,7 @@
             <div class="row">
 
                 <!-- Post Item -->
-                <div class="col-sm-6 col-md-4 mb-60 mb-xs-40">
+                <div class="col-sm-6 col-md-3 mb-60 mb-xs-40">
 
                     <div class="post-prev-img">
                         <a href="blog-single-sidebar-right-dark.html" tabindex="-1"><img src="assets/img/blog/post-prev-2.jpg" alt="" class="wow scaleOutIn" data-wow-duration="1.2s" /></a>
@@ -131,7 +128,7 @@
 
 
                 <!-- Post Item -->
-                <div class="col-sm-6 col-md-4 mb-60 mb-xs-40">
+                <div class="col-sm-6 col-md-3 mb-60 mb-xs-40">
 
                     <div class="post-prev-img">
                         <a href="blog-single-sidebar-right-dark.html" tabindex="-1"><img src="assets/img/blog/post-prev-2.jpg" alt="" class="wow scaleOutIn" data-wow-duration="1.2s" /></a>
@@ -153,7 +150,7 @@
                 <!-- End Post Item -->
 
                 <!-- Post Item -->
-                <div class="col-sm-6 col-md-4 mb-60 mb-xs-40">
+                <div class="col-sm-6 col-md-3 mb-60 mb-xs-40">
 
                     <div class="post-prev-img">
                         <a href="blog-single-sidebar-right-dark.html" tabindex="-1"><img src="assets/img/blog/post-prev-2.jpg" alt="" class="wow scaleOutIn" data-wow-duration="1.2s" /></a>
@@ -175,7 +172,7 @@
                 <!-- End Post Item -->
 
                 <!-- Post Item -->
-                <div class="col-sm-6 col-md-4 mb-60 mb-xs-40">
+                <div class="col-sm-6 col-md-3 mb-60 mb-xs-40">
 
                     <div class="post-prev-img">
                         <a href="blog-single-sidebar-right-dark.html" tabindex="-1"><img src="assets/img/blog/post-prev-2.jpg" alt="" class="wow scaleOutIn" data-wow-duration="1.2s" /></a>
@@ -197,7 +194,7 @@
                 <!-- End Post Item -->
 
                 <!-- Post Item -->
-                <div class="col-sm-6 col-md-4 mb-60 mb-xs-40">
+                <div class="col-sm-6 col-md-3 mb-60 mb-xs-40">
 
                     <div class="post-prev-img">
                         <a href="blog-single-sidebar-right-dark.html" tabindex="-1"><img src="assets/img/blog/post-prev-2.jpg" alt="" class="wow scaleOutIn" data-wow-duration="1.2s" /></a>
@@ -219,7 +216,7 @@
                 <!-- End Post Item -->
 
                 <!-- Post Item -->
-                <div class="col-sm-6 col-md-4 mb-60 mb-xs-40">
+                <div class="col-sm-6 col-md-3 mb-60 mb-xs-40">
 
                     <div class="post-prev-img">
                         <a href="blog-single-sidebar-right-dark.html" tabindex="-1"><img src="assets/img/blog/post-prev-2.jpg" alt="" class="wow scaleOutIn" data-wow-duration="1.2s" /></a>
@@ -241,7 +238,7 @@
                 <!-- End Post Item -->
 
                 <!-- Post Item -->
-                <div class="col-sm-6 col-md-4 mb-60 mb-xs-40">
+                <div class="col-sm-6 col-md-3 mb-60 mb-xs-40">
 
                     <div class="post-prev-img">
                         <a href="blog-single-sidebar-right-dark.html" tabindex="-1"><img src="assets/img/blog/post-prev-2.jpg" alt="" class="wow scaleOutIn" data-wow-duration="1.2s" /></a>
@@ -263,7 +260,7 @@
                 <!-- End Post Item -->
 
                 <!-- Post Item -->
-                <div class="col-sm-6 col-md-4 mb-60 mb-xs-40">
+                <div class="col-sm-6 col-md-3 mb-60 mb-xs-40">
 
                     <div class="post-prev-img">
                         <a href="blog-single-sidebar-right-dark.html" tabindex="-1"><img src="assets/img/blog/post-prev-2.jpg" alt="" class="wow scaleOutIn" data-wow-duration="1.2s" /></a>
@@ -285,7 +282,7 @@
                 <!-- End Post Item -->
 
                 <!-- Post Item -->
-                <div class="col-sm-6 col-md-4 mb-60 mb-xs-40">
+                <div class="col-sm-6 col-md-3 mb-60 mb-xs-40">
 
                     <div class="post-prev-img">
                         <a href="blog-single-sidebar-right-dark.html" tabindex="-1"><img src="assets/img/blog/post-prev-2.jpg" alt="" class="wow scaleOutIn" data-wow-duration="1.2s" /></a>
@@ -307,7 +304,7 @@
                 <!-- End Post Item -->
 
                 <!-- Post Item -->
-                <div class="col-sm-6 col-md-4 mb-60 mb-xs-40">
+                <div class="col-sm-6 col-md-3 mb-60 mb-xs-40">
 
                     <div class="post-prev-img">
                         <a href="blog-single-sidebar-right-dark.html" tabindex="-1"><img src="assets/img/blog/post-prev-2.jpg" alt="" class="wow scaleOutIn" data-wow-duration="1.2s" /></a>
@@ -329,7 +326,7 @@
                 <!-- End Post Item -->
 
                 <!-- Post Item -->
-                <div class="col-sm-6 col-md-4 mb-60 mb-xs-40">
+                <div class="col-sm-6 col-md-3 mb-60 mb-xs-40">
 
                     <div class="post-prev-img">
                         <a href="blog-single-sidebar-right-dark.html" tabindex="-1"><img src="assets/img/blog/post-prev-2.jpg" alt="" class="wow scaleOutIn" data-wow-duration="1.2s" /></a>
@@ -351,7 +348,7 @@
                 <!-- End Post Item -->
 
                 <!-- Post Item -->
-                <div class="col-sm-6 col-md-4 mb-60 mb-xs-40">
+                <div class="col-sm-6 col-md-3 mb-60 mb-xs-40">
 
                     <div class="post-prev-img">
                         <a href="blog-single-sidebar-right-dark.html" tabindex="-1"><img src="assets/img/blog/post-prev-2.jpg" alt="" class="wow scaleOutIn" data-wow-duration="1.2s" /></a>
