@@ -4,7 +4,7 @@
                 <div class="home-section fullwidth-slider-fade bg-dark light-content" id="home">
                     
                     <!-- Slide Item -->
-                    <section class="home-section bg-scroll bg-dark-alfa-30 light-content" data-background="assets/img/full-width-images/section-bg-19.jpg">
+                    <section class="home-section bg-scroll bg-dark-alfa-30 light-content" data-background="assets/img/proyecto/slider-1.jpg">
                         <div class="container fixed-height-medium d-flex align-items-center">
                             
                             <!-- Hero Content -->
@@ -23,7 +23,7 @@
                     <!-- End Slide Item -->
                     
                     <!-- Slide Item -->
-                    <section class="home-section bg-scroll bg-dark-alfa-50 light-content" data-background="assets/img/full-width-images/section-bg-14.jpg">
+                    <section class="home-section bg-scroll bg-dark-alfa-50 light-content" data-background="assets/img/proyecto/slider-2.jpg">
                         <div class="container fixed-height-medium d-flex align-items-center">
                             
                             <!-- Hero Content -->
@@ -183,15 +183,15 @@
                                 <div class="call-action-2-images">
                                     
                                     <div class="call-action-2-image-1">
-                                        <img src="assets/img/promo-3.jpg" alt="" class="wow scaleOutIn" data-wow-duration="1.2s" data-wow-offset="255" />
+                                        <img src="assets/img/proyecto/calidad-centralizacion.jpg" alt="" class="wow scaleOutIn" data-wow-duration="1.2s" data-wow-offset="255" />
                                     </div>
                                     
                                     <div class="call-action-2-image-2">
-                                        <img src="assets/img/promo-4.jpg" alt="" class="wow scaleOutIn" data-wow-duration="1.2s" data-wow-offset="134" />
+                                        <img src="assets/img/proyecto/sostenibilidad.jpg" alt="" class="wow scaleOutIn" data-wow-duration="1.2s" data-wow-offset="134" />
                                     </div>
                                     
                                     <div class="call-action-2-image-3">
-                                        <img src="assets/img/promo-5.jpg" alt="" class="wow scaleOutIn" data-wow-duration="1.2s" data-wow-offset="0" />
+                                        <img src="assets/img/proyecto/compromiso.jpg" alt="" class="wow scaleOutIn" data-wow-duration="1.2s" data-wow-offset="0" />
                                     </div>
                                     
                                 </div>                                                                              
