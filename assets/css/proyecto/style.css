@@ -11,6 +11,10 @@
     list-style: none;
 }
 
+.footer-info li a {
+    text-decoration: none;
+}
+
 .footer-info li::before {
     content: "\f105";
     font-family: "Font Awesome 5 Free";
@@ -21,4 +25,8 @@
 
 .footer-social-links {
     float: right;
+}
+
+.footer-social-links a {
+    text-decoration: none;
 }

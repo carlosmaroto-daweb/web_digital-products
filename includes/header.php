@@ -93,9 +93,6 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                                 <a class="mn-has-sub">Formación <i class="mn-has-sub-icon"></i></a>
                                 <ul class="mn-sub">
                                     <li>
-                                        <a href="index.php?route=formation" class="mn-group-title">General</a>
-                                    </li>
-                                    <li>
                                         <a href="index.php?route=catalogo" class="mn-group-title">Catálogo</a>
                                     </li>
                                     <li>

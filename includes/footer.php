@@ -5,18 +5,18 @@
                         <div>
                             <h5>Información legal</h5>
                             <ul>
-                                <li>Política de privacidad</li>
-                                <li>Política de cookies</li>
-                                <li>Aviso legal</li>
+                                <li><a href="index.php?route=privacy">Política de privacidad</a></li>
+                                <li><a href="index.php?route=cookies">Política de cookies</a></li>
+                                <li><a href="index.php?route=aviso">Aviso legal</a></li>
                             </ul>
                         </div>
 
                         <div>
                             <h5>Sitios</h5>
                             <ul>
-                                <li>Área privada</li>
-                                <li>Plataforma formación</li>
-                                <li>App documental</li>
+                                <li><a href="index.php?route=login">Área privada</a></li>
+                                <li><a href="index.php?route=acceso">Plataforma formación</a></li>
+                                <li><a href="index.php?route=app">App documental</a></li>
                             </ul>
                         </div>
 
