@@ -1,7 +1,7 @@
 <main id="main">
 
     <!-- Home Section -->
-    <section class="small-section bg-dark-alfa-50 bg-scroll light-content" data-background="assets/img/full-width-images/section-bg-19.jpg" id="home">
+    <section class="small-section bg-dark-alfa-50 bg-scroll light-content" data-background="assets/img/proyecto/header.jpg" id="home">
         <div class="container relative pt-70">
 
             <div class="row">
@@ -19,7 +19,7 @@
 
                 <div class="col-md-4 mt-30 wow fadeInUpShort" data-wow-delay=".1s">
                     <div class="mod-breadcrumbs text-end">
-                        <a href="#">Home</a>&nbsp;<span class="mod-breadcrumbs-slash">•</span>&nbsp;<a href="#">Blog</a>&nbsp;<span class="mod-breadcrumbs-slash">•</span>&nbsp;<span>Columns</span>
+                        <a href="index.php">Inicio</a>&nbsp;<span class="mod-breadcrumbs-slash">•</span>&nbsp;<span>Catálogo</span>
                     </div>
                 </div>
 
@@ -28,6 +28,57 @@
         </div>
     </section>
     <!-- End Home Section -->
+
+
+
+
+
+
+
+
+    <!-- ................MODAL...........  -->
+    <div class="container demo mt-5 mb-5">
+
+
+        <div class="text-center">
+            <button type="button" class="btn btn-demo bg-success" data-toggle="modal" data-target="#myModal2">
+                Abrir modal
+            </button>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal right fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel2">Right Sidebar</h4>
+                    </div>
+
+                    <div class="modal-body">
+                        <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                        </p>
+                    </div>
+
+                </div><!-- modal-content -->
+            </div><!-- modal-dialog -->
+        </div><!-- modal -->
+
+
+    </div><!-- container -->
+
+
+
+
+
+
+
+
+
+
+
+
 
     <!-- Section -->
     <section class="page-section bg-dark">
@@ -55,40 +106,6 @@
                     </div>
                 </div>
             </div>
-
-
-            <div class="container demo">
-
-
-                <div class="text-center">
-                    <button type="button" class="btn btn-demo" data-toggle="modal" data-target="#myModal2">
-                        Right Sidebar Modal
-                    </button>
-                </div>
-
-                <!-- Modal -->
-                <div class="modal right fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2">
-                    <div class="modal-dialog" role="document">
-                        <div class="modal-content">
-
-                            <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                <h4 class="modal-title" id="myModalLabel2">Right Sidebar</h4>
-                            </div>
-
-                            <div class="modal-body">
-                                <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                                </p>
-                            </div>
-
-                        </div><!-- modal-content -->
-                    </div><!-- modal-dialog -->
-                </div><!-- modal -->
-
-
-            </div><!-- container -->
-
-
 
 
 
