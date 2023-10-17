@@ -104,7 +104,7 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                                 </ul>
                             </li>
                             <li><a href="index.php?route=contact">Contacto</a></li>
-                            <li><a href="index.php?route=login">Area Privada</a></li>
+                            <li><a href="index.php?route=login">Área Privada</a></li>
                         </ul>
                     </div>
                     <!-- End Main Menu -->

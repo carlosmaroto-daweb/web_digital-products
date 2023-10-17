@@ -1,7 +1,7 @@
 <main id="main">    
             
             <!-- Home Section -->
-            <section class="page-section bg-dark-alfa-50 bg-scroll" data-background="assets/img/full-width-images/section-bg-19.jpg" id="home">
+            <section class="page-section bg-dark-alfa-50 bg-scroll" data-background="assets/img/proyecto/header.jpg" id="home">
                 <div class="container relative">
                 
                     <div class="row">
@@ -19,7 +19,7 @@
                         
                         <div class="col-md-4 mt-30 wow fadeInUpShort" data-wow-delay=".1s">
                             <div class="mod-breadcrumbs text-end">
-                                <a href="#">Home</a>&nbsp;<span class="mod-breadcrumbs-slash">•</span>&nbsp;<a href="#">Pages</a>&nbsp;<span class="mod-breadcrumbs-slash">•</span>&nbsp;<span>My Account</span>
+                                <a href="index.php">Home</a>&nbsp;<span class="mod-breadcrumbs-slash">•</span>&nbsp;<span>Acceso Formación</span>
                             </div>                                
                         </div>
                         

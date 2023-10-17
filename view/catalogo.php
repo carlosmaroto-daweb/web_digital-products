@@ -83,11 +83,13 @@
                 </div>
             </div>
         </div>
+
+
         <div class="container relative">
 
             <div class="mb-60 mb-xs-60">
                 <div class="row justify-content-around">
-                    <div class=" col-10 bg-success">
+                    <div class=" col-10">
                         <form class="form">
                             <div class="search-wrap">
                                 <button class="search-button animate" type="submit" title="Start Search">
@@ -97,9 +99,9 @@
                             </div>
                         </form>
                     </div>
-                    <div class="col-2 bg-info justify-content-end">
+                    <div class="col-2 justify-content-end">
                         <div class="float-right ">
-                            <button type="button" class="btn btn-mod btn-w btn-round btn-medium" data-toggle="modal" data-target="#myModal">
+                            <button type="button" class="btn btn-mod btn-w btn-round btn-medium float-end" data-toggle="modal" data-target="#myModal">
                                 Filtro
                             </button>
                         </div>
@@ -107,10 +109,7 @@
                 </div>
             </div>
 
-            <div class="position-relative">
-                <div class="position-absolute top-0 start-0"></div>
-                <div class="position-absolute top-0 end-0"></div>
-            </div>
+
 
 
 

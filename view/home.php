@@ -42,7 +42,7 @@
                     <!-- End Slide Item -->
                     
                     <!-- Slide Item -->
-                    <section class="home-section bg-scroll bg-dark-alfa-70 light-content" data-background="assets/img/full-width-images/section-bg-21.jpg">
+                    <section class="home-section bg-scroll bg-dark-alfa-70 light-content" data-background="assets/img/proyecto/slider-3.jpg">
                         <div class="container fixed-height-medium d-flex align-items-center">
                             
                             <!-- Hero Content -->
@@ -421,7 +421,7 @@
                         <div class="row">
                             
                             <div class="col-lg-5 mb-md-60 wow fadeScaleIn" data-wow-duration="1.5s">
-                                <img src="assets/img/split-image-1.jpg" alt="Add Your Description" />
+                                <img src="assets/img/proyecto/empresa.jpg" alt="Add Your Description" />
                             </div>
                             
                             <div class="col-lg-6 offset-lg-1 d-flex align-items-center wow fadeInUpShort">
@@ -579,8 +579,7 @@
                 </section>
                 <!-- End Section -->
                 
-                
-                <!-- Testimonials Section -->
+<!--                 
                 <section class="page-section bg-dark bg-dark-alfa-70 bg-scroll light-content" data-background="assets/img/full-width-images/section-bg-2.jpg">
                     <div class="container relative">
                         
@@ -593,7 +592,6 @@
                             
                             <div class="text-slider">
                                 
-                                <!-- Slide Item -->
                                 <div>
                                     <blockquote class="testimonial">
                                         <p>
@@ -604,9 +602,7 @@
                                         </footer>
                                     </blockquote>
                                 </div>
-                                <!-- End Slide Item -->
                                 
-                                <!-- Slide Item -->
                                 <div>
                                     <blockquote class="testimonial">
                                         <p>
@@ -617,9 +613,7 @@
                                         </footer>
                                     </blockquote>
                                 </div>
-                                <!-- End Slide Item -->
                                 
-                                <!-- Slide Item -->
                                 <div>
                                     <blockquote class="testimonial">
                                         <p>
@@ -630,7 +624,6 @@
                                         </footer>
                                     </blockquote>
                                 </div>
-                                <!-- End Slide Item -->
                                 
                             </div>                            
                                                       
@@ -639,15 +632,11 @@
                         
                     </div>
                 </section>
-                <!-- End Testimonials Section -->
                 
             
-                <!-- Divider -->
                 <hr class="mt-0 mb-0 white"/>
-                <!-- End Divider -->
 
                 
-                <!-- Newsletter Section -->
                 <section class="small-section bg-dark bg-dark-alfa-70 bg-scroll bg-position-top light-content" data-background="assets/img/full-width-images/section-bg-3.jpg">
                     <div class="container relative">
                         
@@ -683,8 +672,7 @@
                         
                     </div>
                 </section>
-                <!-- End Newsletter Section -->
-                
+                 -->
                 
                 <!-- Contact Section -->
                 <section class="page-section bg-dark-lighter light-content" id="contact">
@@ -766,7 +754,7 @@
                 <!-- End Contact Section -->
 
 
-                <!-- Call Action Section -->
+                <!-- Call Action Section 
                 <section class="small-section bg-dark light-content">
                     <div class="container relative">
                         <div class="row wow fadeInUpShort">
@@ -783,11 +771,11 @@
                         </div>
                     </div>
                 </section>
-                <!-- End Call Action Section -->
+                End Call Action Section -->
 
 
                 <!-- Section -->
-                <section class="page-section light-content bg-dark bg-dark-alfa-70" data-background="assets/img/full-width-images/section-bg-4.jpg">
+                <section class="page-section light-content bg-dark bg-dark-alfa-70" data-background="assets/img/proyecto/sostenibilidad-app.jpg">
                     <div class="container relative">
                         
                         <div class="wow fadeInUpShort">                            
