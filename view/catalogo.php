@@ -43,24 +43,13 @@
         </div>
 
         <!-- Modal -->
-        <div class="modal right fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                        <h4 class="modal-title" id="myModalLabel2">Right Sidebar</h4>
-                    </div>
-
-                    <div class="modal-body">
-                        <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                        </p>
-                    </div>
-
-                </div><!-- modal-content -->
-            </div><!-- modal-dialog -->
-        </div><!-- modal -->
-
+        <div id="filter" class="mfp-hide white-popup-block">
+            <h1>This is lightbox modal window</h1>
+            <p>
+                Lorem ipsum dolor sit amet, adipiscing elit. In maximus ligula semper metus pellentesque mattis. Maecenas volutpat, diam enim.
+            </p>
+        </div>
+        <!-- /Modal -->
 
     </div><!-- container -->
 
@@ -93,9 +82,7 @@
                         </form>
                     </div>
                     <div class="col-1 col-sm-1">
-                        <button type="button" class="btn btn-mod btn-w btn-round btn-medium" data-toggle="modal" data-target="#myModal">
-                            Filtro
-                        </button>
+                        <a href="#test-modal" class="btn btn-mod btn-medium round mt-10 lightbox-gallery-5 mfp-inline">Filter</a>                        
                     </div>
                 </div>
             </div>
@@ -373,6 +360,15 @@
         </div>
     </section>
     <!-- End Section -->
+
+    <!-- Modal -->
+    <div id="test-modal" class="mfp-hide white-popup-block">
+        <h1>This is lightbox modal window</h1>
+        <p>
+            Lorem ipsum dolor sit amet, adipiscing elit. In maximus ligula semper metus pellentesque mattis. Maecenas volutpat, diam enim.
+        </p>
+    </div>
+    <!-- /Modal -->
 
 
 </main>
