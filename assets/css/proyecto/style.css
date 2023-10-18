@@ -1,73 +1,4 @@
-.footer-info {
-    display: flex;
-    justify-content: space-between;
-}
-
-.footer-info ul {
-    padding-left: 0px;
-}
-
-.footer-info li {
-    list-style: none;
-}
-
-.footer-info li a {
-    text-decoration: none;
-}
-
-.footer-info li::before {
-    content: "\f105";
-    font-family: "Font Awesome 5 Free";
-    font-size: 16px;
-    font-weight: 900;
-	margin-right: 10px;
-}
-
-.footer-social-links {
-    display: flex;
-    flex-direction: column;
-}
-
-.footer-social-links a {
-    text-decoration: none;
-    margin-bottom: 10px;
-}
-
-.informacion-legal {
-    margin-top: 50px;
-    display: flex;
-    justify-content: center;
-}
-
-.content-informacion-legal {
-    width: fit-content;
-    background-color: black;
-    border-radius: 30px;
-    padding: 20px 10px;
-}
-
-.content-informacion-legal a {
-    text-decoration: none;
-    text-align: center;
-    border: 2px solid white;
-    color: white;
-    border-radius: 30px;
-    padding: 10px 20px;
-}
-
-.content-informacion-legal a:hover {
-    background-color: rgb(255, 255, 255);
-    color: black;
-}
-
-.content-informacion-legal .active{
-    background-color: rgb(255, 255, 255);
-    color: black;
-}
-
-.sostenibilidad-app {
-    background-attachment: unset;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
 .count-bg-1 {
     background: rgba(178, 255, 38, 0.5) !important;
@@ -83,6 +14,119 @@
 
 .count-bg-4 {
     background: rgba(80, 176, 255, 0.5) !important;
+}
+
+.sostenibilidad-app {
+    background-attachment: unset;
+}
+
+.footer-container {
+    display: flex;
+}
+
+.col-footer-logo {
+    display: flex;
+    flex-direction: column;
+}
+
+.col-footer-contain {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.row-footer-link {
+    width: 100%;
+    display: flex;
+}
+
+.col-text {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-text p {
+    font-family: 'Roboto Mono', sans-serif;
+    font-size: 20px;
+}
+
+.footer-social-links {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.footer-social-links a {
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.footer-social-links a::before {
+    background-color: transparent !important;
+}
+
+.footer-social-links .twitter{
+    background-color: #00ACEE;
+    border-radius: 50%;
+}
+
+.footer-social-links .twitter i {
+    color: white;
+}
+
+.footer-social-links .instagram{
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+    border-radius: 50%;
+}
+
+.footer-social-links .instagram i {
+    color: white;
+}
+
+.footer-social-links .facebook{
+    background-color: #3b5998;
+    border-radius: 50%;
+}
+
+.footer-social-links .facebook i {
+    color: white;
+}
+
+.col-footer-contain hr {
+    width: 100%;
+}
+
+.row-footer-btn {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.informacion-legal a {
+    text-decoration: none;
+    border: 2px solid white;
+    color: white;
+    border-radius: 30px;
+    padding: 10px 20px;
+    margin-right: 10px;
+}
+
+.informacion-legal a:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.informacion-legal .active{
+    background-color: rgb(255, 255, 255);
+    color: black;
 }
 
 /*
