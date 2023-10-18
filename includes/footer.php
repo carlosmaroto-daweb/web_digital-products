@@ -18,9 +18,14 @@
                     </div>
                     <div class="col-footer-contain">
                         <div class="row-footer-link">
+                            <div class="promo-footer">
+                                <img src="assets/img/proyecto/app.jpg">
+                            </div>
+                            <!-- 
                             <div class="col-text">
                                 <p class="uppercase">Respaldando su infraestructura comercial</p>
                             </div>
+                            -->
                             <div class="footer-social-links">
                                 <a class="twitter" href="#" title="Twitter" target="_blank"><i class="fab fa-twitter"></i> <span class="sr-only">Twitter profile</span></a>
                                 <a class="instagram" href="#" title="Instagram" target="_blank"><i class="fab fa-instagram"></i> <span class="sr-only">Instagram profile</span></a>

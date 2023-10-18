@@ -40,6 +40,21 @@
     display: flex;
 }
 
+.promo-footer {
+    width: 100%;
+    background-image: url(../../img/proyecto/about-shape-1.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center 56%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.promo-footer img {
+    width: 300px;
+}
+
 .col-text {
     width: 100%;
     display: flex;
