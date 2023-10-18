@@ -32,9 +32,11 @@
                     </div>
 
                     <div class="informacion-legal">
-                        <a href="index.php?route=privacy">Política de privacidad</a>
-                        <a href="index.php?route=cookies">Política de cookies</a>
-                        <a href="index.php?route=aviso">Aviso legal</a></li>
+                        <div class="content-informacion-legal">
+                            <a class="active" href="index.php?route=privacy">Política de privacidad</a>
+                            <a href="index.php?route=cookies">Política de cookies</a>
+                            <a href="index.php?route=aviso">Aviso legal</a></li>
+                        </div>
                     </div>
                 </div>
                  
