@@ -94,7 +94,7 @@
                                 <!-- Counter Item -->
                                 <div class="col-md-6 col-lg-3 mb-md-30">
                                     <div class="count-item">
-                                        <div class="count-bg wow scalexIn"></div>
+                                        <div class="count-bg count-bg-1 wow scalexIn"></div>
                                         <div class="relative wow fadeIn" data-wow-delay="1s">
                                             <div class="count-number">
                                                 320
@@ -111,7 +111,7 @@
                                 <!-- Counter Item -->
                                 <div class="col-md-6 col-lg-3 mb-md-30">
                                     <div class="count-item">
-                                        <div class="count-bg wow scalexIn"></div>
+                                        <div class="count-bg count-bg-2 wow scalexIn"></div>
                                         <div class="relative wow fadeIn" data-wow-delay="1.1s">
                                             <div class="count-number">
                                                 150
@@ -128,7 +128,7 @@
                                 <!-- Counter Item -->
                                 <div class="col-md-6 col-lg-3 mb-md-30">
                                     <div class="count-item">
-                                        <div class="count-bg wow scalexIn"></div>
+                                        <div class="count-bg count-bg-3 wow scalexIn"></div>
                                         <div class="relative wow fadeIn" data-wow-delay="1.2s">
                                             <div class="count-number">
                                                 933
@@ -145,7 +145,7 @@
                                 <!-- Counter Item -->
                                 <div class="col-md-6 col-lg-3 mb-md-30">
                                     <div class="count-item">
-                                        <div class="count-bg wow scalexIn"></div>
+                                        <div class="count-bg count-bg-4 wow scalexIn"></div>
                                         <div class="relative wow fadeIn" data-wow-delay="1.3s">
                                             <div class="count-number">
                                                 975
