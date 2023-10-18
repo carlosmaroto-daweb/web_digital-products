@@ -30,7 +30,6 @@
 }
 
 .col-footer-contain {
-    width: 100%;
     display: flex;
     flex-direction: column;
 }
@@ -126,6 +125,7 @@
 }
 
 .informacion-legal a {
+    width: fit-content;
     text-decoration: none;
     border: 2px solid white;
     color: white;
@@ -142,6 +142,13 @@
 .informacion-legal .active{
     background-color: rgb(255, 255, 255);
     color: black;
+}
+
+@media (max-width: 992px) {
+
+    .col-footer-logo {
+        text-align: center;
+    }
 }
 
 /*
