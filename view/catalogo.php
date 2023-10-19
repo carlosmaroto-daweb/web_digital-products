@@ -30,41 +30,6 @@
     <!-- End Home Section -->
 
 
-
-
-    <!-- ................MODAL...........  -->
-    <div class="container demo mt-5 mb-5">
-
-
-        <div class="text-center">
-            <button type="button" class="btn btn-demo bg-success" data-toggle="modal" data-target="#myModal2">
-                Abrir modal
-            </button>
-        </div>
-
-        <!-- Modal -->
-        <div id="filter" class="mfp-hide white-popup-block">
-            <h1>This is lightbox modal window</h1>
-            <p>
-                Lorem ipsum dolor sit amet, adipiscing elit. In maximus ligula semper metus pellentesque mattis. Maecenas volutpat, diam enim.
-            </p>
-        </div>
-        <!-- /Modal -->
-
-    </div><!-- container -->
-
-
-
-
-
-
-
-
-
-
-
-
-
     <!-- Section -->
     <section class="page-section bg-dark">
 
@@ -82,7 +47,7 @@
                         </form>
                     </div>
                     <div class="col-1 col-sm-1">
-                        <a href="#test-modal" class="btn btn-mod btn-medium round mt-10 lightbox-gallery-5 mfp-inline">Filter</a>                        
+                        <a href="#test-modal" class="btn btn-mod btn-medium round mt-10 lightbox-gallery-5 mfp-inline">Filter</a>
                     </div>
                 </div>
             </div>
@@ -363,10 +328,83 @@
 
     <!-- Modal -->
     <div id="test-modal" class="mfp-hide white-popup-block">
-        <h1>This is lightbox modal window</h1>
-        <p>
-            Lorem ipsum dolor sit amet, adipiscing elit. In maximus ligula semper metus pellentesque mattis. Maecenas volutpat, diam enim.
-        </p>
+        <div class="widget">
+
+            <h3 class="widget-title">Filtrar</h3>
+
+            <div class="widget-body">
+                <ul class="clearlist widget-menu">
+                    <li>
+                        <dt class="text-white">Categoría</dt>
+                        <select class="form-select mb-4" aria-label="Default select example">
+                            <option selected>Seleccione</option>
+                            <option value="1">Cat1</option>
+                            <option value="2">Cat2</option>
+                            <option value="3">Cat3</option>
+                        </select>
+                    </li>
+                    <li>
+                        <dt class="text-white">Fecha de publicación</dt>
+                        <div class="md-form md-outline input-with-post-icon datepicker mb-4">
+                            <input placeholder="Select date" type="date" id="example" class="form-control">
+                        </div>
+                    </li>
+                    <li>
+                        <dt class="text-white">Duración del curso</dt>
+                        <select class="form-select mb-4" aria-label="Default select example">
+                            <option selected>Seleccione</option>
+                            <option value="1">10 horas</option>
+                            <option value="2">15 horas</option>
+                            <option value="3">20 horas</option>
+                            <option value="4">25 horas</option>
+                            <option value="5">30 o más horas</option>
+                        </select>
+                    </li>
+                    <li>
+                        <dt class="text-white">Empresa</dt>
+                        <select class="form-select mb-4" aria-label="Default select example">
+                            <option selected>Seleccione</option>
+                            <option value="1">Emp1</option>
+                            <option value="2">Emp2</option>
+                            <option value="3">Emp3</option>
+                        </select>
+                    </li>
+                    <li>
+                        <dt class="text-white mb-2">Composición del curso</dt>
+                        <h6 class="text-white">Unidades</h6>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="3">
+                            <label class="form-check-label text-white" for="inlineRadio1">3</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="5">
+                            <label class="form-check-label text-white" for="inlineRadio2">5</label>
+                        </div>
+                        <div class="form-check form-check-inline mb-3">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="7">
+                            <label class="form-check-label text-white" for="inlineRadio2">7 o más</label>
+                        </div>
+
+
+
+                        <h6 class="text-white">Dificultad</h6>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="facil">
+                            <label class="form-check-label text-white" for="inlineRadio1">Fácil</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="medio">
+                            <label class="form-check-label text-white" for="inlineRadio2">Medio</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="dificil">
+                            <label class="form-check-label text-white" for="inlineRadio2">Difícil</label>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
     </div>
     <!-- /Modal -->
 
