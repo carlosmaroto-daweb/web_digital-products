@@ -1,10 +1,10 @@
-# Digital Products
+# Digital Products 
 
 ¡Bienvenido a Digital Products, donde la innovación y la solución digital son nuestro enfoque principal!
 
 ## Demostración
 
-¡Explora nuestra plataforma ahora mismo! Visita la demostración en vivo de Digital Products [aquí](https://www.carlosmaroto-daweb.com/digital-products/).
+¡Explora nuestra plataforma ahora mismo! Visita la demostración en vivo de Digital Products [aquí](https://digital-products.carlosmaroto-daweb.com).
 
 ## Tecnologías Utilizadas
 
@@ -13,6 +13,10 @@
 - CSS
 - JavaScript
 - Bootstrap
+- Docker para contenerización
+- Implementación continua y entrega continua (CI/CD) con GitHub Actions
+- Proxy inverso Nginx
+- Uso de EC2 de AWS para alojamiento
 
 ## Características Principales
 
@@ -20,7 +24,7 @@
 - **Soporte Técnico**: Proporcionamos un sólido soporte técnico para garantizar el funcionamiento sin problemas de nuestras soluciones digitales.
 - **Seguridad**: Priorizamos la seguridad de los datos y la información de nuestros clientes, implementando las mejores prácticas de seguridad digital.
 
-## Soluciones Digitales Ofrecidas
+### Soluciones Digitales Ofrecidas
 
 En Digital Products nos especializamos en ofrecer soluciones digitales para diversas áreas, incluyendo:
 

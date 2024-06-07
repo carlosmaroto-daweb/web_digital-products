@@ -10,8 +10,7 @@ env:
   DOCKER_IMAGE: digital-products:latest
   DOCKER_CONTAINER: web_digital-products
   PORT: 8008
-  NGINX_LOCATION: /digital-products/
-  NGINX_CONF_FILE: /etc/nginx/sites-available/default
+  SUBDOMAIN: digital-products.carlosmaroto-daweb.com
 
 jobs:
   create-docker-image:
@@ -47,8 +46,30 @@ jobs:
             sudo docker run -d \
               --name $DOCKER_CONTAINER \
               -p $PORT:80 \
-              --restart always \
               ghcr.io/carlosmaroto-daweb/$DOCKER_IMAGE
             sudo docker stop $DOCKER_CONTAINER
-            sudo bash update_nginx_config.sh $NGINX_LOCATION $NGINX_CONF_FILE $PORT
+            sudo systemctl stop nginx
+            if [ ! -f /etc/nginx/sites-available/$SUBDOMAIN ]; then
+              sudo touch /etc/nginx/sites-available/$SUBDOMAIN
+              sudo ln -s /etc/nginx/sites-available/$SUBDOMAIN /etc/nginx/sites-enabled/$SUBDOMAIN
+              sudo certbot certonly --standalone -d $SUBDOMAIN --cert-name $SUBDOMAIN --non-interactive --agree-tos --email carlosmaroto.daweb@gmail.com
+            fi
+            sudo echo '
+            server {
+              listen 443 ssl;
+              server_name $SUBDOMAIN;
+
+              ssl_certificate /etc/letsencrypt/live/$SUBDOMAIN/fullchain.pem;
+              ssl_certificate_key /etc/letsencrypt/live/$SUBDOMAIN/privkey.pem;
+
+              location / {
+                proxy_pass http://localhost:$PORT;
+                proxy_set_header Host \$host;
+                proxy_set_header X-Real-IP \$remote_addr;
+                proxy_set_header X-Forwarded-For \$proxy_add_x_forwarded_for;
+                proxy_set_header X-Forwarded-Proto \$scheme;
+              }
+            }' > /tmp/nginx_site_config
+            sudo mv /tmp/nginx_site_config /etc/nginx/sites-available/$SUBDOMAIN
+            sudo systemctl start nginx
           EOF
