@@ -9,7 +9,7 @@ on:
 env:
   DOCKER_IMAGE: digital-products:latest
   DOCKER_CONTAINER: web_digital-products
-  PORT: 8002
+  PORT: 8001
   SUBDOMAIN: digital-products.carlosmaroto-daweb.com
 
 jobs:
