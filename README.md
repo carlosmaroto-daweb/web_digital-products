@@ -1,4 +1,4 @@
-# Digital Products 
+# Digital Products
 
 ¡Bienvenido a Digital Products, donde la innovación y la solución digital son nuestro enfoque principal!
 
